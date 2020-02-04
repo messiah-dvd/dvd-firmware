@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Dec 11 22:28:35 2019
+# Process ID: 20728
+# Current directory: C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.runs/synth_2
+# Command line: vivado.exe -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file: C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.runs/synth_2/system_wrapper.vds
+# Journal file: C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.runs/synth_2\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Tue Nov 26 11:22:44 2019
+# Process ID: 5544
+# Current directory: C:/Users/nc1220/xilinx_workspace/dvd_firmware/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: C:/Users/nc1220/xilinx_workspace/dvd_firmware/webtalk/webtalk.log
+# Journal file: C:/Users/nc1220/xilinx_workspace/dvd_firmware/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl
+# webtalk_init -webtalk_dir C:\\Users\\nc1220\\xilinx_workspace\\dvd_firmware\\webtalk
+# webtalk_register_client -client project
+# webtalk_add_data -client project -key date_generated -value "2019-11-26 11:22:42" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key product_version -value "Vitis v2019.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key build_version -value "2019.2" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_platform -value "amd64" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key registration_id -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key tool_flow -value "Vitis" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key beta -value "false" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key route_design -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_family -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_device -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_package -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key target_speed -value "NA" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key random_id -value "cge3rh6n1kdvanvgaef33gmlc4" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_id -value "2019.2_1" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key project_iteration -value "1" -context "software_version_and_target_device"
+# webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
+# webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
+# webtalk_add_data -client project -key cpu_name -value "Intel(R) Xeon(R) Silver 4112 CPU @ 2.60GHz" -context "user_environment"
+# webtalk_add_data -client project -key cpu_speed -value "2593 MHz" -context "user_environment"
+# webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
+# webtalk_add_data -client project -key system_ram -value "68.299 GB" -context "user_environment"
+# webtalk_register_client -client vitis
+# webtalk_add_data -client vitis -key uid -value "1574782846900" -context "vitis\\\\platform/1574782846900"
+# webtalk_add_data -client vitis -key platform_source -value "dsa" -context "vitis\\\\platform/1574782846900"
+# webtalk_add_data -client vitis -key os -value "standalone" -context "vitis\\\\platform/1574782846900"
+# webtalk_add_data -client vitis -key processor -value "ps7_cortexa9" -context "vitis\\\\platform/1574782846900"
+# webtalk_add_data -client vitis -key platform -value "NA" -context "vitis\\\\platform/1574782846900"
+# webtalk_add_data -client vitis -key uid -value "1574783111055" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key project_type -value "sdk" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key os -value "standalone" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key processor -value "cortex-a9" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key runtime -value "C/C++" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key template -value "sdk" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key platform -value "custom" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key platform_type -value "fixed" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key application_type -value "application" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key platform_source -value "platform" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key device_family -value "zynq" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key fpga -value "xc7z010" -context "vitis\\\\application/1574783111055"
+# webtalk_add_data -client vitis -key uid -value "NA" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key RecordType -value "ToolUsage" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key BOOTGEN_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key FLASH_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key MOVE_APP_TO_SYSTEM_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key SDX_EXPORT_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key SDX_IMPORT_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key SDX_BUILD_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key SDX_NO_OP_BUILD_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key TCF_APP_DEBUG_count -value "3" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key TCF_SYSTEM_DEBUG_count -value "3" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key GDB_DEBUG_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key QEMU_DEBUG_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key ESTIMATION_DEBUG_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key SDSOC_TRACE_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key PERFORMANCE_ANALYSIS_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key SPM_ANALYSIS_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key CROSS_TRIGGER_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key TCF_PROFILER_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key APPLICATION_PLATFORM_CHANGE_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key APPLICATION_SYS_CONFIG_CHANGE_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_add_data -client vitis -key SYSTEM_PLATFORM_CHANGE_count -value "0" -context "vitis\\\\tool/1574785362770"
+# webtalk_transmit -clientid 2498492082 -regid "" -xml C:\\Users\\nc1220\\xilinx_workspace\\dvd_firmware\\webtalk\\usage_statistics_ext_vitis.xml -html C:\\Users\\nc1220\\xilinx_workspace\\dvd_firmware\\webtalk\\usage_statistics_ext_vitis.html -wdm C:\\Users\\nc1220\\xilinx_workspace\\dvd_firmware\\webtalk\\vitis_webtalk.wdm -intro "<H3>Vitis Usage Report</H3><BR>"
+INFO: [Common 17-186] 'C:\Users\nc1220\xilinx_workspace\dvd_firmware\webtalk\usage_statistics_ext_vitis.xml' has been successfully sent to Xilinx on Tue Nov 26 11:22:49 2019. For additional details about this file, please refer to the WebTalk help file at C:/Vitis/Vitis/2019.2/doc/webtalk_introduction.html.
+# webtalk_terminate
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 26 11:22:49 2019...

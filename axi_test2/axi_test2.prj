@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="axi_test2" location="C:/Users/nc1220/xilinx_workspace/dvd_firmware/axi_test2" platform="C:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/default.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="axi_test2_system" sysConfig="default" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="ae67b26b17f5018f749bec814532f948">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.571941123">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.779602450" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

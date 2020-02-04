@@ -1,0 +1,85 @@
+timestamp=[2019-11-26 10:39:50], mode=WORKBENCH_START, duration=0:00:09.242, duration_ms=9242, data={}
+timestamp=[2019-11-26 10:39:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.578, duration_ms=578, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2019-11-26 10:41:20], mode=PLATFORM_CREATION, duration=0:00:33.369, duration_ms=33369, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2019-11-26 10:44:02], mode=PLATFORM_GENERATION, duration=0:01:41.418, duration_ms=101418, data={name=default}
+timestamp=[2019-11-26 10:45:24], mode=APP_CREATION, duration=0:00:14.958, duration_ms=14958, data={name=dvd_firmware, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=default, application_type=application}
+timestamp=[2019-11-26 11:23:21], mode=WORKBENCH_START, duration=0:00:13.411, duration_ms=13411, data={}
+timestamp=[2019-11-26 11:23:22], mode=WORKBENCH_UI_INIT, duration=0:00:01.109, duration_ms=1109, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-11-26 11:29:52], mode=WORKBENCH_START, duration=0:00:13.231, duration_ms=13231, data={}
+timestamp=[2019-11-26 11:29:53], mode=WORKBENCH_UI_INIT, duration=0:00:01.095, duration_ms=1095, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-11-26 11:37:15], mode=WORKBENCH_START, duration=0:00:15.708, duration_ms=15708, data={}
+timestamp=[2019-11-26 11:37:16], mode=WORKBENCH_UI_INIT, duration=0:00:01.206, duration_ms=1206, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-11-26 11:38:47], mode=PLATFORM_GENERATION, duration=0:01:06.046, duration_ms=66046, data={name=default}
+timestamp=[2019-12-02 21:01:25], mode=WORKBENCH_START, duration=0:00:19.173, duration_ms=19173, data={}
+timestamp=[2019-12-02 21:01:26], mode=WORKBENCH_UI_INIT, duration=0:00:01.636, duration_ms=1636, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-02 21:36:39], mode=PLATFORM_CREATION, duration=0:00:32.714, duration_ms=32714, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2019-12-02 21:39:27], mode=PLATFORM_GENERATION, duration=0:01:45.034, duration_ms=105034, data={name=default}
+timestamp=[2019-12-02 21:41:44], mode=APP_CREATION, duration=0:00:19.044, duration_ms=19044, data={name=axi_test, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=default, application_type=application}
+timestamp=[2019-12-02 21:49:55], mode=WORKBENCH_START, duration=0:00:15.285, duration_ms=15285, data={}
+timestamp=[2019-12-02 21:49:57], mode=WORKBENCH_UI_INIT, duration=0:00:01.421, duration_ms=1421, data={editors_count=4, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,axi_test,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-02 21:50:56], mode=PLATFORM_GENERATION, duration=0:00:48.427, duration_ms=48427, data={name=default}
+timestamp=[2019-12-02 22:00:30], mode=APP_CREATION, duration=0:00:14.220, duration_ms=14220, data={name=hello_world, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=default, application_type=application}
+timestamp=[2019-12-02 22:07:38], mode=WORKBENCH_START, duration=0:00:12.551, duration_ms=12551, data={}
+timestamp=[2019-12-02 22:07:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.848, duration_ms=848, data={editors_count=8, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test_system,default,dvd_firmware,dvd_firmware_system,hello_world,hello_world_system}
+timestamp=[2019-12-03 09:19:34], mode=WORKBENCH_START, duration=0:00:14.021, duration_ms=14021, data={}
+timestamp=[2019-12-03 09:19:35], mode=WORKBENCH_UI_INIT, duration=0:00:01.102, duration_ms=1102, data={editors_count=8, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test_system,default,dvd_firmware,dvd_firmware_system,hello_world,hello_world_system}
+timestamp=[2019-12-03 09:39:37], mode=WORKBENCH_START, duration=0:00:11.479, duration_ms=11479, data={}
+timestamp=[2019-12-03 09:39:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.783, duration_ms=783, data={editors_count=0, platform_editors_count=0, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-03 09:40:50], mode=WORKBENCH_START, duration=0:00:13.212, duration_ms=13212, data={}
+timestamp=[2019-12-03 09:40:51], mode=WORKBENCH_UI_INIT, duration=0:00:00.730, duration_ms=730, data={editors_count=0, platform_editors_count=0, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-03 09:41:47], mode=APP_CREATION, duration=0:00:11.488, duration_ms=11488, data={name=axi_test2, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=default, application_type=application}
+timestamp=[2019-12-03 09:45:13], mode=PLATFORM_GENERATION, duration=0:00:54.105, duration_ms=54105, data={name=default}
+timestamp=[2019-12-05 10:10:49], mode=WORKBENCH_START, duration=0:00:14.945, duration_ms=14945, data={}
+timestamp=[2019-12-05 10:10:51], mode=WORKBENCH_UI_INIT, duration=0:00:01.574, duration_ms=1574, data={editors_count=5, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-05 10:19:42], mode=WORKBENCH_START, duration=0:00:15.797, duration_ms=15797, data={}
+timestamp=[2019-12-05 10:19:43], mode=WORKBENCH_UI_INIT, duration=0:00:01.265, duration_ms=1265, data={editors_count=5, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-05 10:23:48], mode=PLATFORM_GENERATION, duration=0:00:54.078, duration_ms=54078, data={name=default}
+timestamp=[2019-12-05 10:47:36], mode=WORKBENCH_START, duration=0:00:12.349, duration_ms=12349, data={}
+timestamp=[2019-12-05 10:47:37], mode=WORKBENCH_UI_INIT, duration=0:00:01.086, duration_ms=1086, data={editors_count=5, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-05 11:14:28], mode=WORKBENCH_START, duration=0:00:12.409, duration_ms=12409, data={}
+timestamp=[2019-12-05 11:14:29], mode=WORKBENCH_UI_INIT, duration=0:00:01.249, duration_ms=1249, data={editors_count=5, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-05 15:16:23], mode=WORKBENCH_START, duration=0:00:17.824, duration_ms=17824, data={}
+timestamp=[2019-12-05 15:16:25], mode=WORKBENCH_UI_INIT, duration=0:00:01.580, duration_ms=1580, data={editors_count=5, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-05 15:32:47], mode=PLATFORM_GENERATION, duration=0:01:00.112, duration_ms=60112, data={name=default}
+timestamp=[2019-12-05 16:11:12], mode=PLATFORM_GENERATION, duration=0:00:02.855, duration_ms=2855, data={name=default}
+timestamp=[2019-12-05 16:49:37], mode=PLATFORM_GENERATION, duration=0:00:44.793, duration_ms=44793, data={name=default}
+timestamp=[2019-12-05 16:52:05], mode=PLATFORM_GENERATION, duration=0:01:46.138, duration_ms=106138, data={name=default}
+timestamp=[2019-12-05 19:49:04], mode=PLATFORM_GENERATION, duration=0:00:04.370, duration_ms=4370, data={name=default}
+timestamp=[2019-12-05 19:50:39], mode=PLATFORM_GENERATION, duration=0:01:19.543, duration_ms=79543, data={name=default}
+timestamp=[2019-12-05 20:57:41], mode=PLATFORM_GENERATION, duration=0:00:03.048, duration_ms=3048, data={name=default}
+timestamp=[2019-12-05 20:58:30], mode=PLATFORM_GENERATION, duration=0:00:43.190, duration_ms=43190, data={name=default}
+timestamp=[2019-12-05 20:59:22], mode=PLATFORM_GENERATION, duration=0:00:42.202, duration_ms=42202, data={name=default}
+timestamp=[2019-12-05 21:00:47], mode=PLATFORM_GENERATION, duration=0:00:42.106, duration_ms=42106, data={name=default}
+timestamp=[2019-12-05 21:02:10], mode=PLATFORM_GENERATION, duration=0:00:04.014, duration_ms=4014, data={name=default}
+timestamp=[2019-12-05 21:02:35], mode=PLATFORM_GENERATION, duration=0:00:04.011, duration_ms=4011, data={name=default}
+timestamp=[2019-12-05 21:03:18], mode=PLATFORM_GENERATION, duration=0:00:02.113, duration_ms=2113, data={name=default}
+timestamp=[2019-12-05 21:05:45], mode=PLATFORM_GENERATION, duration=0:00:42.702, duration_ms=42702, data={name=default}
+timestamp=[2019-12-05 22:53:44], mode=WORKBENCH_START, duration=0:00:17.346, duration_ms=17346, data={}
+timestamp=[2019-12-05 22:53:45], mode=WORKBENCH_UI_INIT, duration=0:00:01.580, duration_ms=1580, data={editors_count=4, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-05 23:13:00], mode=WORKBENCH_START, duration=0:00:14.852, duration_ms=14852, data={}
+timestamp=[2019-12-05 23:13:02], mode=WORKBENCH_UI_INIT, duration=0:00:01.300, duration_ms=1300, data={editors_count=4, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-05 23:21:06], mode=PLATFORM_GENERATION, duration=0:00:47.792, duration_ms=47792, data={name=default}
+timestamp=[2019-12-10 11:35:47], mode=WORKBENCH_START, duration=0:00:18.807, duration_ms=18807, data={}
+timestamp=[2019-12-10 11:35:48], mode=WORKBENCH_UI_INIT, duration=0:00:01.478, duration_ms=1478, data={editors_count=4, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-10 11:38:58], mode=PLATFORM_GENERATION, duration=0:00:47.960, duration_ms=47960, data={name=default}
+timestamp=[2019-12-11 22:19:45], mode=WORKBENCH_START, duration=0:00:14.938, duration_ms=14938, data={}
+timestamp=[2019-12-11 22:19:46], mode=WORKBENCH_UI_INIT, duration=0:00:01.416, duration_ms=1416, data={editors_count=5, platform_editors_count=0, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-12 10:19:50], mode=PLATFORM_GENERATION, duration=0:00:55.637, duration_ms=55637, data={name=default}
+timestamp=[2019-12-12 10:35:54], mode=WORKBENCH_START, duration=0:00:22.882, duration_ms=22882, data={}
+timestamp=[2019-12-12 10:35:56], mode=WORKBENCH_UI_INIT, duration=0:00:02.158, duration_ms=2158, data={editors_count=6, platform_editors_count=0, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,default,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-12 10:53:43], mode=PLATFORM_GENERATION, duration=0:00:49.701, duration_ms=49701, data={name=default}
+timestamp=[2019-12-12 11:00:19], mode=PLATFORM_GENERATION, duration=0:00:03.102, duration_ms=3102, data={name=default}
+timestamp=[2019-12-12 11:03:13], mode=PLATFORM_GENERATION, duration=0:00:05.262, duration_ms=5262, data={name=default}
+timestamp=[2019-12-12 11:04:06], mode=PLATFORM_GENERATION, duration=0:00:43.766, duration_ms=43766, data={name=default}
+timestamp=[2019-12-12 11:04:58], mode=PLATFORM_GENERATION, duration=0:00:43.419, duration_ms=43419, data={name=default}
+timestamp=[2019-12-12 11:06:35], mode=PLATFORM_CREATION, duration=0:00:33.262, duration_ms=33262, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2019-12-12 11:08:16], mode=WORKBENCH_START, duration=0:00:14.855, duration_ms=14855, data={}
+timestamp=[2019-12-12 11:08:17], mode=WORKBENCH_UI_INIT, duration=0:00:01.736, duration_ms=1736, data={editors_count=6, platform_editors_count=0, projects_count=7, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-12 11:10:02], mode=PLATFORM_CREATION, duration=0:00:28.380, duration_ms=28380, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2019-12-12 11:11:58], mode=PLATFORM_GENERATION, duration=0:01:27.746, duration_ms=87746, data={name=def}
+timestamp=[2019-12-13 13:49:08], mode=WORKBENCH_START, duration=0:00:18.095, duration_ms=18095, data={}
+timestamp=[2019-12-13 13:49:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.928, duration_ms=928, data={editors_count=9, platform_editors_count=0, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,def,dvd_firmware,dvd_firmware_system}
+timestamp=[2019-12-13 13:52:15], mode=PLATFORM_GENERATION, duration=0:00:58.596, duration_ms=58596, data={name=def}
+timestamp=[2020-02-04 11:09:51], mode=WORKBENCH_START, duration=0:00:17.131, duration_ms=17131, data={}
+timestamp=[2020-02-04 11:09:52], mode=WORKBENCH_UI_INIT, duration=0:00:01.482, duration_ms=1482, data={editors_count=9, platform_editors_count=1, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,def,dvd_firmware,dvd_firmware_system}
+timestamp=[2020-02-04 11:12:42], mode=PLATFORM_GENERATION, duration=0:00:58.362, duration_ms=58362, data={name=def}

@@ -6,10 +6,14 @@
 # Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 # 
 
+echo "This script was generated under a different operating system."
+echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
+exit
+
 if [ -z "$PATH" ]; then
-  PATH=/opt/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2019.1/bin
+  PATH=C:/Vitis/Vitis/2019.2/bin;C:/Vitis/Vivado/2019.2/ids_lite/ISE/bin/nt64;C:/Vitis/Vivado/2019.2/ids_lite/ISE/lib/nt64:C:/Vitis/Vivado/2019.2/bin
 else
-  PATH=/opt/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2019.1/bin:$PATH
+  PATH=C:/Vitis/Vitis/2019.2/bin;C:/Vitis/Vivado/2019.2/ids_lite/ISE/bin/nt64;C:/Vitis/Vivado/2019.2/ids_lite/ISE/lib/nt64:C:/Vitis/Vivado/2019.2/bin:$PATH
 fi
 export PATH
 
@@ -20,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/feliks/Downloads/Zybo-Z7-10-HDMI-master/vivado_proj/Zybo-Z7-10-HDMI.runs/synth_1'
+HD_PWD='C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+EAStep vivado -log system_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
