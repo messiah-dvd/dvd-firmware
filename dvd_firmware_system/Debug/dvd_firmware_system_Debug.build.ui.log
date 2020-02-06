@@ -1,10 +1,0 @@
-2020-02-04T11:12:53.164811800255-11:12:53 **** Incremental Build of configuration Debug for project dvd_firmware_system ****
-000-make all 
-000-Generating bif file for the system project
-000-generate_system_bif.bat 50070 C:/Users/nc1220/xilinx_workspace/dvd_firmware/def/export/def/def.xpfm standalone_domain C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware_system/Debug/system.bif
-000-sdcard_gen --xpfm C:/Users/nc1220/xilinx_workspace/dvd_firmware/def/export/def/def.xpfm --sys_config def --bif C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware_system/Debug/system.bif --bitstream C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware/_ide/bitstream/system_wrapper.bit --elf C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware/Debug/dvd_firmware.elf,ps7_cortexa9_0
-000-creating BOOT.BIN using C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware/_ide/bitstream/system_wrapper.bit
-000-Running C:/Vitis/Vitis/2019.2/bin/bootgen  -image C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
-00255-
-11:13:00 Build Finished (took 7s.714ms)
-

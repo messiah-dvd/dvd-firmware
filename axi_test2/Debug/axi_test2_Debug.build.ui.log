@@ -1,40 +1,0 @@
-2019-12-12T10:19:51.059856500255-10:19:51 **** Build of configuration Debug for project axi_test2 ****
-000-make all 
-000-make --no-print-directory pre-build
-000-a9-linaro-pre-build-step
-000-' '
-000-make --no-print-directory main-build
-000-'Building file: ../src/main.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/sw/default/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-000-../src/main.c: In function 'init_acf_core':
-000/axi_test2/src/main.c64-1-1implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]1-../src/main.c:64:2: warning: implicit declaration of function 'sleep'; did you mean 'strsep'? [-Wimplicit-function-declaration]
-000-  sleep(3);
-000-  ^~~~~
-000-  strsep
-000-../src/main.c: In function 'main':
-000/axi_test2/src/main.c81-1-1format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]1-../src/main.c:81:28: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
-000-     printf("photon count: %u\r\n", photon_cnt);
-000-                           ~^       ~~~~~~~~~~
-000-                           %lu
-000-'Finished building: ../src/main.c'
-000-' '
-000-'Building file: ../src/platform.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/sw/default/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-000-'Finished building: ../src/platform.c'
-000-' '
-000-'Building target: axi_test2.elf'
-000-'Invoking: ARM v7 gcc linker'
-000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/sw/default/standalone_domain/bsplib/lib -o "axi_test2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000-'Finished building target: axi_test2.elf'
-000-' '
-000-'Invoking: ARM v7 Print Size'
-000-arm-none-eabi-size axi_test2.elf  |tee "axi_test2.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000-  57360	   2584	  23328	  83272	  14548	axi_test2.elf
-000-'Finished building: axi_test2.elf.size'
-000-' '
-00255-
-10:19:53 Build Finished (took 2s.95ms)
-

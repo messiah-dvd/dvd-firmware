@@ -1,27 +1,0 @@
-2019-12-05T15:33:32.770186300255-15:33:32 **** Incremental Build of configuration Debug for project axi_test ****
-000-make all 
-000-make --no-print-directory pre-build
-000-a9-linaro-pre-build-step
-000-' '
-000-make --no-print-directory main-build
-000-'Building file: ../src/main.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/sw/default/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-000-../src/main.c: In function 'main':
-000/axi_test/src/main.c9-1-1implicit declaration of function 'init_platform'; did you mean 'init_acf_core'? [-Wimplicit-function-declaration]1-../src/main.c:9:5: warning: implicit declaration of function 'init_platform'; did you mean 'init_acf_core'? [-Wimplicit-function-declaration]
-000-     init_platform();
-000-     ^~~~~~~~~~~~~
-000-     init_acf_core
-000-'Finished building: ../src/main.c'
-000-' '
-000-'Building target: axi_test.elf'
-000-'Invoking: ARM v7 gcc linker'
-000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/sw/default/standalone_domain/bsplib/lib -o "axi_test.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000/axi_test0-1-1./src/main.o: in function `main':2-c:/vitis/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
-000/axi_test/src/main.c9-1-1undefined reference to `init_platform'2-C:\Users\nc1220\xilinx_workspace\dvd_firmware\axi_test\Debug/../src/main.c:9: undefined reference to `init_platform'
-000-collect2.exe: error: ld returned 1 exit status
-000/axi_test0-1-1make[1]: *** [makefile:43: axi_test.elf] Error 12-make[1]: *** [makefile:43: axi_test.elf] Error 1
-000/axi_test0-1-1make: *** [makefile:34: all] Error 22-make: *** [makefile:34: all] Error 2
-00255-
-15:33:33 Build Finished (took 1s.17ms)
-
