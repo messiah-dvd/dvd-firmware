@@ -90,5 +90,7 @@ IDE.log
 !*.xmp
 
 !*.sdk/
+
+!*.sdk/**
 *.tmp
 *.cache/

@@ -1,0 +1,10 @@
+2019-12-10T11:47:32.370166600255-11:47:32 **** Build of configuration Debug for project axi_test2_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 51014 C:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/default.xpfm standalone_domain C:/Users/nc1220/xilinx_workspace/dvd_firmware/axi_test2_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/default.xpfm --sys_config default --bif C:/Users/nc1220/xilinx_workspace/dvd_firmware/axi_test2_system/Debug/system.bif --bitstream C:/Users/nc1220/xilinx_workspace/dvd_firmware/axi_test2/_ide/bitstream/system_wrapper.bit --elf C:/Users/nc1220/xilinx_workspace/dvd_firmware/axi_test2/Debug/axi_test2.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using C:/Users/nc1220/xilinx_workspace/dvd_firmware/axi_test2/_ide/bitstream/system_wrapper.bit
+000-Running C:/Vitis/Vitis/2019.2/bin/bootgen  -image C:/Users/nc1220/xilinx_workspace/dvd_firmware/axi_test2_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+11:47:40 Build Finished (took 8s.624ms)
+

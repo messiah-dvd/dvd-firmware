@@ -1,0 +1,649 @@
+2020-02-18T11:44:26.361284300255-11:44:26 **** Build of configuration Debug for project dvd_firmware ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/timer_ps/timer_ps.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps/timer_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/timer_ps/timer_ps.d" -MT"src/timer_ps/timer_ps.o" -o "src/timer_ps/timer_ps.o" "../src/timer_ps/timer_ps.c"
+000-'Finished building: ../src/timer_ps/timer_ps.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme.d" -MT"src/lvgl/lv_themes/lv_theme.o" -o "src/lvgl/lv_themes/lv_theme.o" "../src/lvgl/lv_themes/lv_theme.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_alien.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_alien.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_alien.d" -MT"src/lvgl/lv_themes/lv_theme_alien.o" -o "src/lvgl/lv_themes/lv_theme_alien.o" "../src/lvgl/lv_themes/lv_theme_alien.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_alien.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_default.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_default.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_default.d" -MT"src/lvgl/lv_themes/lv_theme_default.o" -o "src/lvgl/lv_themes/lv_theme_default.o" "../src/lvgl/lv_themes/lv_theme_default.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_default.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_material.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_material.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_material.d" -MT"src/lvgl/lv_themes/lv_theme_material.o" -o "src/lvgl/lv_themes/lv_theme_material.o" "../src/lvgl/lv_themes/lv_theme_material.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_material.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_mono.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_mono.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_mono.d" -MT"src/lvgl/lv_themes/lv_theme_mono.o" -o "src/lvgl/lv_themes/lv_theme_mono.o" "../src/lvgl/lv_themes/lv_theme_mono.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_mono.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_nemo.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_nemo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_nemo.d" -MT"src/lvgl/lv_themes/lv_theme_nemo.o" -o "src/lvgl/lv_themes/lv_theme_nemo.o" "../src/lvgl/lv_themes/lv_theme_nemo.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_nemo.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_night.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_night.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_night.d" -MT"src/lvgl/lv_themes/lv_theme_night.o" -o "src/lvgl/lv_themes/lv_theme_night.o" "../src/lvgl/lv_themes/lv_theme_night.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_night.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_templ.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_templ.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_templ.d" -MT"src/lvgl/lv_themes/lv_theme_templ.o" -o "src/lvgl/lv_themes/lv_theme_templ.o" "../src/lvgl/lv_themes/lv_theme_templ.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_templ.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_themes/lv_theme_zen.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_themes/lv_theme_zen.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_themes/lv_theme_zen.d" -MT"src/lvgl/lv_themes/lv_theme_zen.o" -o "src/lvgl/lv_themes/lv_theme_zen.o" "../src/lvgl/lv_themes/lv_theme_zen.c"
+000-'Finished building: ../src/lvgl/lv_themes/lv_theme_zen.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_arc.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_arc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_arc.d" -MT"src/lvgl/lv_objx/lv_arc.o" -o "src/lvgl/lv_objx/lv_arc.o" "../src/lvgl/lv_objx/lv_arc.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_arc.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_bar.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_bar.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_bar.d" -MT"src/lvgl/lv_objx/lv_bar.o" -o "src/lvgl/lv_objx/lv_bar.o" "../src/lvgl/lv_objx/lv_bar.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_bar.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_btn.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_btn.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_btn.d" -MT"src/lvgl/lv_objx/lv_btn.o" -o "src/lvgl/lv_objx/lv_btn.o" "../src/lvgl/lv_objx/lv_btn.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_btn.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_btnm.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_btnm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_btnm.d" -MT"src/lvgl/lv_objx/lv_btnm.o" -o "src/lvgl/lv_objx/lv_btnm.o" "../src/lvgl/lv_objx/lv_btnm.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_btnm.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_calendar.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_calendar.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_calendar.d" -MT"src/lvgl/lv_objx/lv_calendar.o" -o "src/lvgl/lv_objx/lv_calendar.o" "../src/lvgl/lv_objx/lv_calendar.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_calendar.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_cb.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_cb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_cb.d" -MT"src/lvgl/lv_objx/lv_cb.o" -o "src/lvgl/lv_objx/lv_cb.o" "../src/lvgl/lv_objx/lv_cb.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_cb.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_chart.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_chart.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_chart.d" -MT"src/lvgl/lv_objx/lv_chart.o" -o "src/lvgl/lv_objx/lv_chart.o" "../src/lvgl/lv_objx/lv_chart.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_chart.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_cont.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_cont.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_cont.d" -MT"src/lvgl/lv_objx/lv_cont.o" -o "src/lvgl/lv_objx/lv_cont.o" "../src/lvgl/lv_objx/lv_cont.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_cont.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_ddlist.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_ddlist.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_ddlist.d" -MT"src/lvgl/lv_objx/lv_ddlist.o" -o "src/lvgl/lv_objx/lv_ddlist.o" "../src/lvgl/lv_objx/lv_ddlist.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_ddlist.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_gauge.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_gauge.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_gauge.d" -MT"src/lvgl/lv_objx/lv_gauge.o" -o "src/lvgl/lv_objx/lv_gauge.o" "../src/lvgl/lv_objx/lv_gauge.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_gauge.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_img.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_img.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_img.d" -MT"src/lvgl/lv_objx/lv_img.o" -o "src/lvgl/lv_objx/lv_img.o" "../src/lvgl/lv_objx/lv_img.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_img.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_imgbtn.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_imgbtn.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_imgbtn.d" -MT"src/lvgl/lv_objx/lv_imgbtn.o" -o "src/lvgl/lv_objx/lv_imgbtn.o" "../src/lvgl/lv_objx/lv_imgbtn.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_imgbtn.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_kb.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_kb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_kb.d" -MT"src/lvgl/lv_objx/lv_kb.o" -o "src/lvgl/lv_objx/lv_kb.o" "../src/lvgl/lv_objx/lv_kb.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_kb.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_label.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_label.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_label.d" -MT"src/lvgl/lv_objx/lv_label.o" -o "src/lvgl/lv_objx/lv_label.o" "../src/lvgl/lv_objx/lv_label.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_label.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_led.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_led.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_led.d" -MT"src/lvgl/lv_objx/lv_led.o" -o "src/lvgl/lv_objx/lv_led.o" "../src/lvgl/lv_objx/lv_led.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_led.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_line.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_line.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_line.d" -MT"src/lvgl/lv_objx/lv_line.o" -o "src/lvgl/lv_objx/lv_line.o" "../src/lvgl/lv_objx/lv_line.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_line.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_list.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_list.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_list.d" -MT"src/lvgl/lv_objx/lv_list.o" -o "src/lvgl/lv_objx/lv_list.o" "../src/lvgl/lv_objx/lv_list.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_list.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_lmeter.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_lmeter.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_lmeter.d" -MT"src/lvgl/lv_objx/lv_lmeter.o" -o "src/lvgl/lv_objx/lv_lmeter.o" "../src/lvgl/lv_objx/lv_lmeter.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_lmeter.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_mbox.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_mbox.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_mbox.d" -MT"src/lvgl/lv_objx/lv_mbox.o" -o "src/lvgl/lv_objx/lv_mbox.o" "../src/lvgl/lv_objx/lv_mbox.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_mbox.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_objx_templ.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_objx_templ.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_objx_templ.d" -MT"src/lvgl/lv_objx/lv_objx_templ.o" -o "src/lvgl/lv_objx/lv_objx_templ.o" "../src/lvgl/lv_objx/lv_objx_templ.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_objx_templ.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_page.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_page.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_page.d" -MT"src/lvgl/lv_objx/lv_page.o" -o "src/lvgl/lv_objx/lv_page.o" "../src/lvgl/lv_objx/lv_page.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_page.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_preload.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_preload.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_preload.d" -MT"src/lvgl/lv_objx/lv_preload.o" -o "src/lvgl/lv_objx/lv_preload.o" "../src/lvgl/lv_objx/lv_preload.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_preload.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_roller.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_roller.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_roller.d" -MT"src/lvgl/lv_objx/lv_roller.o" -o "src/lvgl/lv_objx/lv_roller.o" "../src/lvgl/lv_objx/lv_roller.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_roller.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_slider.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_slider.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_slider.d" -MT"src/lvgl/lv_objx/lv_slider.o" -o "src/lvgl/lv_objx/lv_slider.o" "../src/lvgl/lv_objx/lv_slider.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_slider.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_sw.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_sw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_sw.d" -MT"src/lvgl/lv_objx/lv_sw.o" -o "src/lvgl/lv_objx/lv_sw.o" "../src/lvgl/lv_objx/lv_sw.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_sw.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_ta.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_ta.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_ta.d" -MT"src/lvgl/lv_objx/lv_ta.o" -o "src/lvgl/lv_objx/lv_ta.o" "../src/lvgl/lv_objx/lv_ta.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_ta.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_tabview.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_tabview.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_tabview.d" -MT"src/lvgl/lv_objx/lv_tabview.o" -o "src/lvgl/lv_objx/lv_tabview.o" "../src/lvgl/lv_objx/lv_tabview.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_tabview.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_objx/lv_win.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_objx/lv_win.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_objx/lv_win.d" -MT"src/lvgl/lv_objx/lv_win.o" -o "src/lvgl/lv_objx/lv_win.o" "../src/lvgl/lv_objx/lv_win.c"
+000-'Finished building: ../src/lvgl/lv_objx/lv_win.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_anim.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_anim.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_anim.d" -MT"src/lvgl/lv_misc/lv_anim.o" -o "src/lvgl/lv_misc/lv_anim.o" "../src/lvgl/lv_misc/lv_anim.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_anim.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_area.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_area.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_area.d" -MT"src/lvgl/lv_misc/lv_area.o" -o "src/lvgl/lv_misc/lv_area.o" "../src/lvgl/lv_misc/lv_area.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_area.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_circ.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_circ.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_circ.d" -MT"src/lvgl/lv_misc/lv_circ.o" -o "src/lvgl/lv_misc/lv_circ.o" "../src/lvgl/lv_misc/lv_circ.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_circ.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_color.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_color.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_color.d" -MT"src/lvgl/lv_misc/lv_color.o" -o "src/lvgl/lv_misc/lv_color.o" "../src/lvgl/lv_misc/lv_color.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_color.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_font.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_font.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_font.d" -MT"src/lvgl/lv_misc/lv_font.o" -o "src/lvgl/lv_misc/lv_font.o" "../src/lvgl/lv_misc/lv_font.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_font.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_fs.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_fs.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_fs.d" -MT"src/lvgl/lv_misc/lv_fs.o" -o "src/lvgl/lv_misc/lv_fs.o" "../src/lvgl/lv_misc/lv_fs.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_fs.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_ll.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_ll.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_ll.d" -MT"src/lvgl/lv_misc/lv_ll.o" -o "src/lvgl/lv_misc/lv_ll.o" "../src/lvgl/lv_misc/lv_ll.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_ll.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_log.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_log.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_log.d" -MT"src/lvgl/lv_misc/lv_log.o" -o "src/lvgl/lv_misc/lv_log.o" "../src/lvgl/lv_misc/lv_log.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_log.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_math.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_math.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_math.d" -MT"src/lvgl/lv_misc/lv_math.o" -o "src/lvgl/lv_misc/lv_math.o" "../src/lvgl/lv_misc/lv_math.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_math.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_mem.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_mem.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_mem.d" -MT"src/lvgl/lv_misc/lv_mem.o" -o "src/lvgl/lv_misc/lv_mem.o" "../src/lvgl/lv_misc/lv_mem.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_mem.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_task.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_task.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_task.d" -MT"src/lvgl/lv_misc/lv_task.o" -o "src/lvgl/lv_misc/lv_task.o" "../src/lvgl/lv_misc/lv_task.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_task.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_templ.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_templ.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_templ.d" -MT"src/lvgl/lv_misc/lv_templ.o" -o "src/lvgl/lv_misc/lv_templ.o" "../src/lvgl/lv_misc/lv_templ.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_templ.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_txt.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_txt.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_txt.d" -MT"src/lvgl/lv_misc/lv_txt.o" -o "src/lvgl/lv_misc/lv_txt.o" "../src/lvgl/lv_misc/lv_txt.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_txt.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_misc/lv_ufs.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_misc/lv_ufs.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_misc/lv_ufs.d" -MT"src/lvgl/lv_misc/lv_ufs.o" -o "src/lvgl/lv_misc/lv_ufs.o" "../src/lvgl/lv_misc/lv_ufs.c"
+000-'Finished building: ../src/lvgl/lv_misc/lv_ufs.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_hal/lv_hal_disp.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_hal/lv_hal_disp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_hal/lv_hal_disp.d" -MT"src/lvgl/lv_hal/lv_hal_disp.o" -o "src/lvgl/lv_hal/lv_hal_disp.o" "../src/lvgl/lv_hal/lv_hal_disp.c"
+000-'Finished building: ../src/lvgl/lv_hal/lv_hal_disp.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_hal/lv_hal_indev.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_hal/lv_hal_indev.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_hal/lv_hal_indev.d" -MT"src/lvgl/lv_hal/lv_hal_indev.o" -o "src/lvgl/lv_hal/lv_hal_indev.o" "../src/lvgl/lv_hal/lv_hal_indev.c"
+000-'Finished building: ../src/lvgl/lv_hal/lv_hal_indev.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_hal/lv_hal_tick.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_hal/lv_hal_tick.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_hal/lv_hal_tick.d" -MT"src/lvgl/lv_hal/lv_hal_tick.o" -o "src/lvgl/lv_hal/lv_hal_tick.o" "../src/lvgl/lv_hal/lv_hal_tick.c"
+000-'Finished building: ../src/lvgl/lv_hal/lv_hal_tick.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_builtin.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_builtin.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_builtin.d" -MT"src/lvgl/lv_fonts/lv_font_builtin.o" -o "src/lvgl/lv_fonts/lv_font_builtin.o" "../src/lvgl/lv_fonts/lv_font_builtin.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_builtin.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_10.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_10.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_10.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_10.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_10.o" "../src/lvgl/lv_fonts/lv_font_dejavu_10.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_10.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.o" "../src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.o" "../src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_20.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_20.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_20.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_20.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_20.o" "../src/lvgl/lv_fonts/lv_font_dejavu_20.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_20.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.o" "../src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.o" "../src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_30.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_30.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_30.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_30.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_30.o" "../src/lvgl/lv_fonts/lv_font_dejavu_30.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_30.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.o" "../src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.o" "../src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_40.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_40.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_40.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_40.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_40.o" "../src/lvgl/lv_fonts/lv_font_dejavu_40.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_40.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.o" "../src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.d" -MT"src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.o" -o "src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.o" "../src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_monospace_8.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_monospace_8.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_monospace_8.d" -MT"src/lvgl/lv_fonts/lv_font_monospace_8.o" -o "src/lvgl/lv_fonts/lv_font_monospace_8.o" "../src/lvgl/lv_fonts/lv_font_monospace_8.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_monospace_8.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_symbol_10.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_symbol_10.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_symbol_10.d" -MT"src/lvgl/lv_fonts/lv_font_symbol_10.o" -o "src/lvgl/lv_fonts/lv_font_symbol_10.o" "../src/lvgl/lv_fonts/lv_font_symbol_10.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_symbol_10.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_symbol_20.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_symbol_20.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_symbol_20.d" -MT"src/lvgl/lv_fonts/lv_font_symbol_20.o" -o "src/lvgl/lv_fonts/lv_font_symbol_20.o" "../src/lvgl/lv_fonts/lv_font_symbol_20.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_symbol_20.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_symbol_30.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_symbol_30.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_symbol_30.d" -MT"src/lvgl/lv_fonts/lv_font_symbol_30.o" -o "src/lvgl/lv_fonts/lv_font_symbol_30.o" "../src/lvgl/lv_fonts/lv_font_symbol_30.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_symbol_30.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_fonts/lv_font_symbol_40.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_fonts/lv_font_symbol_40.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_fonts/lv_font_symbol_40.d" -MT"src/lvgl/lv_fonts/lv_font_symbol_40.o" -o "src/lvgl/lv_fonts/lv_font_symbol_40.o" "../src/lvgl/lv_fonts/lv_font_symbol_40.c"
+000-'Finished building: ../src/lvgl/lv_fonts/lv_font_symbol_40.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw.d" -MT"src/lvgl/lv_draw/lv_draw.o" -o "src/lvgl/lv_draw/lv_draw.o" "../src/lvgl/lv_draw/lv_draw.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_arc.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_arc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_arc.d" -MT"src/lvgl/lv_draw/lv_draw_arc.o" -o "src/lvgl/lv_draw/lv_draw_arc.o" "../src/lvgl/lv_draw/lv_draw_arc.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_arc.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_img.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_img.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_img.d" -MT"src/lvgl/lv_draw/lv_draw_img.o" -o "src/lvgl/lv_draw/lv_draw_img.o" "../src/lvgl/lv_draw/lv_draw_img.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_img.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_label.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_label.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_label.d" -MT"src/lvgl/lv_draw/lv_draw_label.o" -o "src/lvgl/lv_draw/lv_draw_label.o" "../src/lvgl/lv_draw/lv_draw_label.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_label.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_line.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_line.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_line.d" -MT"src/lvgl/lv_draw/lv_draw_line.o" -o "src/lvgl/lv_draw/lv_draw_line.o" "../src/lvgl/lv_draw/lv_draw_line.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_line.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_rbasic.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_rbasic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_rbasic.d" -MT"src/lvgl/lv_draw/lv_draw_rbasic.o" -o "src/lvgl/lv_draw/lv_draw_rbasic.o" "../src/lvgl/lv_draw/lv_draw_rbasic.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_rbasic.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_rect.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_rect.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_rect.d" -MT"src/lvgl/lv_draw/lv_draw_rect.o" -o "src/lvgl/lv_draw/lv_draw_rect.o" "../src/lvgl/lv_draw/lv_draw_rect.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_rect.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_triangle.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_triangle.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_triangle.d" -MT"src/lvgl/lv_draw/lv_draw_triangle.o" -o "src/lvgl/lv_draw/lv_draw_triangle.o" "../src/lvgl/lv_draw/lv_draw_triangle.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_triangle.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_draw/lv_draw_vbasic.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_draw/lv_draw_vbasic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_draw/lv_draw_vbasic.d" -MT"src/lvgl/lv_draw/lv_draw_vbasic.o" -o "src/lvgl/lv_draw/lv_draw_vbasic.o" "../src/lvgl/lv_draw/lv_draw_vbasic.c"
+000-'Finished building: ../src/lvgl/lv_draw/lv_draw_vbasic.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_core/lv_group.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_core/lv_group.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_core/lv_group.d" -MT"src/lvgl/lv_core/lv_group.o" -o "src/lvgl/lv_core/lv_group.o" "../src/lvgl/lv_core/lv_group.c"
+000-'Finished building: ../src/lvgl/lv_core/lv_group.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_core/lv_indev.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_core/lv_indev.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_core/lv_indev.d" -MT"src/lvgl/lv_core/lv_indev.o" -o "src/lvgl/lv_core/lv_indev.o" "../src/lvgl/lv_core/lv_indev.c"
+000-'Finished building: ../src/lvgl/lv_core/lv_indev.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_core/lv_obj.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_core/lv_obj.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_core/lv_obj.d" -MT"src/lvgl/lv_core/lv_obj.o" -o "src/lvgl/lv_core/lv_obj.o" "../src/lvgl/lv_core/lv_obj.c"
+000-'Finished building: ../src/lvgl/lv_core/lv_obj.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_core/lv_refr.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_core/lv_refr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_core/lv_refr.d" -MT"src/lvgl/lv_core/lv_refr.o" -o "src/lvgl/lv_core/lv_refr.o" "../src/lvgl/lv_core/lv_refr.c"
+000-'Finished building: ../src/lvgl/lv_core/lv_refr.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_core/lv_style.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_core/lv_style.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_core/lv_style.d" -MT"src/lvgl/lv_core/lv_style.o" -o "src/lvgl/lv_core/lv_style.o" "../src/lvgl/lv_core/lv_style.c"
+000-'Finished building: ../src/lvgl/lv_core/lv_style.c'
+000-' '
+000-'Building file: ../src/lvgl/lv_core/lv_vdb.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lvgl/lv_core/lv_vdb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/lvgl/lv_core/lv_vdb.d" -MT"src/lvgl/lv_core/lv_vdb.o" -o "src/lvgl/lv_core/lv_vdb.o" "../src/lvgl/lv_core/lv_vdb.c"
+000-'Finished building: ../src/lvgl/lv_core/lv_vdb.c'
+000-' '
+000-'Building file: ../src/intc/intc.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+000-'Finished building: ../src/intc/intc.c'
+000-' '
+000-'Building file: ../src/dynclk/dynclk.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
+000-'Finished building: ../src/dynclk/dynclk.c'
+000-' '
+000-'Building file: ../src/display_ctrl/display_ctrl.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
+000-'Finished building: ../src/display_ctrl/display_ctrl.c'
+000-' '
+000-'Building file: ../src/bloodtest_data.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bloodtest_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/bloodtest_data.d" -MT"src/bloodtest_data.o" -o "src/bloodtest_data.o" "../src/bloodtest_data.c"
+000-../src/bloodtest_data.c: In function 'add_data':
+000/dvd_firmware/src/bloodtest_data.c4-1-1implicit declaration of function 'printf' [-Wimplicit-function-declaration]1-../src/bloodtest_data.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+000-  printf("Done! \n");
+000-  ^~~~~~
+000/dvd_firmware/src/bloodtest_data.c4-1-1incompatible implicit declaration of built-in function 'printf'1-../src/bloodtest_data.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
+000/dvd_firmware/src/bloodtest_data.c4-1-1include '<stdio.h>' or provide a declaration of 'printf'0-../src/bloodtest_data.c:4:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+000-../src/bloodtest_data.c:2:1:
+000-+#include <stdio.h>
+000- 
+000-../src/bloodtest_data.c:4:2:
+000-  printf("Done! \n");
+000-  ^~~~~~
+000/dvd_firmware/src/bloodtest_data.c10-1-1unused variable 'i' [-Wunused-variable]1-../src/bloodtest_data.c:10:6: warning: unused variable 'i' [-Wunused-variable]
+000-  int i;
+000-      ^
+000/dvd_firmware/src/bloodtest_data.c9-1-1unused variable 'points' [-Wunused-variable]1-../src/bloodtest_data.c:9:6: warning: unused variable 'points' [-Wunused-variable]
+000-  int points[64];
+000-      ^~~~~~
+000-'Finished building: ../src/bloodtest_data.c'
+000-' '
+000-'Building file: ../src/dvd_firmware.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dvd_firmware.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/dvd_firmware.d" -MT"src/dvd_firmware.o" -o "src/dvd_firmware.o" "../src/dvd_firmware.c"
+000-In file included from ../src/dvd_firmware.h:40,
+000-                 from ../src/dvd_firmware.c:1:
+000/dvd_firmware/src/init.h9-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/init.h:9: warning: "ACF_CORE_BASE_ADDR" redefined
+000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
+000- 
+000-In file included from ../src/dvd_firmware.c:1:
+000/dvd_firmware/src/dvd_firmware.h27-1-1this is the location of the previous definition0-../src/dvd_firmware.h:27: note: this is the location of the previous definition
+000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
+000- 
+000-In file included from ../src/pages.h:2,
+000-                 from ../src/dvd_firmware.h:43,
+000-                 from ../src/dvd_firmware.c:1:
+000/dvd_firmware/src/bloodtest_data.h17-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/bloodtest_data.h:17: warning: "ACF_CORE_BASE_ADDR" redefined
+000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
+000- 
+000-In file included from ../src/dvd_firmware.h:40,
+000-                 from ../src/dvd_firmware.c:1:
+000/dvd_firmware/src/init.h9-1-1this is the location of the previous definition0-../src/init.h:9: note: this is the location of the previous definition
+000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
+000- 
+000-../src/dvd_firmware.c: In function 'timer_h':
+000/dvd_firmware/src/dvd_firmware.c33-1-1parameter names (without types) in function declaration1-../src/dvd_firmware.c:33:2: warning: parameter names (without types) in function declaration
+000-  XScuTimer ClearInterruptStatus( TimerInstancePtr);
+000-  ^~~~~~~~~
+000/dvd_firmware/src/dvd_firmware.c32-1-1unused variable 'TimerInstancePtr' [-Wunused-variable]1-../src/dvd_firmware.c:32:13: warning: unused variable 'TimerInstancePtr' [-Wunused-variable]
+000-  XScuTimer *TimerInstancePtr = (XScuTimer *) CallBackRef;
+000-             ^~~~~~~~~~~~~~~~
+000-In file included from ../src/dvd_firmware.h:44,
+000-                 from ../src/dvd_firmware.c:1:
+000-../src/dvd_firmware.c: At top level:
+000/dvd_firmware/src/oi_ui.h4-1-1'on_btn_click' declared 'static' but never defined [-Wunused-function]1-../src/oi_ui.h:4:17: warning: 'on_btn_click' declared 'static' but never defined [-Wunused-function]
+000- static lv_res_t on_btn_click(lv_obj_t * btn);
+000-                 ^~~~~~~~~~~~
+000-In file included from ../src/dvd_firmware.c:1:
+000/dvd_firmware/src/dvd_firmware.h48-1-1'btn_click_action' declared 'static' but never defined [-Wunused-function]1-../src/dvd_firmware.h:48:17: warning: 'btn_click_action' declared 'static' but never defined [-Wunused-function]
+000- static lv_res_t btn_click_action(lv_obj_t * btn);
+000-                 ^~~~~~~~~~~~~~~~
+000-'Finished building: ../src/dvd_firmware.c'
+000-' '
+000-'Building file: ../src/init.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/init.d" -MT"src/init.o" -o "src/init.o" "../src/init.c"
+000-In file included from ../src/dvd_firmware.h:40,
+000-                 from ../src/init.c:2:
+000/dvd_firmware/src/init.h9-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/init.h:9: warning: "ACF_CORE_BASE_ADDR" redefined
+000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
+000- 
+000-In file included from ../src/init.c:2:
+000/dvd_firmware/src/dvd_firmware.h27-1-1this is the location of the previous definition0-../src/dvd_firmware.h:27: note: this is the location of the previous definition
+000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
+000- 
+000-In file included from ../src/pages.h:2,
+000-                 from ../src/dvd_firmware.h:43,
+000-                 from ../src/init.c:2:
+000/dvd_firmware/src/bloodtest_data.h17-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/bloodtest_data.h:17: warning: "ACF_CORE_BASE_ADDR" redefined
+000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
+000- 
+000-In file included from ../src/dvd_firmware.h:40,
+000-                 from ../src/init.c:2:
+000/dvd_firmware/src/init.h9-1-1this is the location of the previous definition0-../src/init.h:9: note: this is the location of the previous definition
+000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
+000- 
+000-../src/init.c: In function 'init_hardware':
+000/dvd_firmware/src/init.c67-1-1implicit declaration of function 'init_btns' [-Wimplicit-function-declaration]1-../src/init.c:67:2: warning: implicit declaration of function 'init_btns' [-Wimplicit-function-declaration]
+000-  init_btns();
+000-  ^~~~~~~~~
+000-../src/init.c: In function 'disp_flush':
+000/dvd_firmware/src/init.c143-1-1implicit declaration of function 'Xil_DCacheFlushRange' [-Wimplicit-function-declaration]1-../src/init.c:143:2: warning: implicit declaration of function 'Xil_DCacheFlushRange' [-Wimplicit-function-declaration]
+000-  Xil_DCacheFlushRange((unsigned int) pFrames[dispCtrl.curFrame], SCREEN_FRAME_SIZE);
+000-  ^~~~~~~~~~~~~~~~~~~~
+000-../src/init.c: At top level:
+000/dvd_firmware/src/init.c147-1-1conflicting types for 'init_btns'1init_btns../src/init.c:147:6: warning: conflicting types for 'init_btns'
+000- void init_btns(){
+000-      ^~~~~~~~~
+000/dvd_firmware/src/init.c67-1-1previous implicit declaration of 'init_btns' was here0-../src/init.c:67:2: note: previous implicit declaration of 'init_btns' was here
+000-  init_btns();
+000-  ^~~~~~~~~
+000-In file included from ../src/dvd_firmware.h:44,
+000-                 from ../src/init.c:2:
+000/dvd_firmware/src/oi_ui.h4-1-1'on_btn_click' declared 'static' but never defined [-Wunused-function]1-../src/oi_ui.h:4:17: warning: 'on_btn_click' declared 'static' but never defined [-Wunused-function]
+000- static lv_res_t on_btn_click(lv_obj_t * btn);
+000-                 ^~~~~~~~~~~~
+000-In file included from ../src/init.c:2:
+000/dvd_firmware/src/dvd_firmware.h48-1-1'btn_click_action' declared 'static' but never defined [-Wunused-function]1-../src/dvd_firmware.h:48:17: warning: 'btn_click_action' declared 'static' but never defined [-Wunused-function]
+000- static lv_res_t btn_click_action(lv_obj_t * btn);
+000-                 ^~~~~~~~~~~~~~~~
+000-../src/init.c: In function 'init_acf_core':
+000/dvd_firmware/src/init.c82-1-1control reaches end of non-void function [-Wreturn-type]1-../src/init.c:82:1: warning: control reaches end of non-void function [-Wreturn-type]
+000- }
+000- ^
+000-'Finished building: ../src/init.c'
+000-' '
+000-'Building file: ../src/oi_ui.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oi_ui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/oi_ui.d" -MT"src/oi_ui.o" -o "src/oi_ui.o" "../src/oi_ui.c"
+000-../src/oi_ui.c: In function 'on_btn_click':
+000/dvd_firmware/src/oi_ui.c46-1-1implicit declaration of function 'printf' [-Wimplicit-function-declaration]1-../src/oi_ui.c:46:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+000-     printf("Button %d pressed\n", id);
+000-     ^~~~~~
+000/dvd_firmware/src/oi_ui.c46-1-1incompatible implicit declaration of built-in function 'printf'1-../src/oi_ui.c:46:5: warning: incompatible implicit declaration of built-in function 'printf'
+000/dvd_firmware/src/oi_ui.c46-1-1include '<stdio.h>' or provide a declaration of 'printf'0-../src/oi_ui.c:46:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+000-../src/oi_ui.c:2:1:
+000-+#include <stdio.h>
+000- 
+000-../src/oi_ui.c:46:5:
+000-     printf("Button %d pressed\n", id);
+000-     ^~~~~~
+000-'Finished building: ../src/oi_ui.c'
+000-' '
+000-'Building file: ../src/pages.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pages.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/pages.d" -MT"src/pages.o" -o "src/pages.o" "../src/pages.c"
+000-../src/pages.c: In function 'home_page':
+000/dvd_firmware/src/pages.c28-1-1implicit declaration of function 'add_data' [-Wimplicit-function-declaration]1-../src/pages.c:28:2: warning: implicit declaration of function 'add_data' [-Wimplicit-function-declaration]
+000-  add_data(chart, viral_load);
+000-  ^~~~~~~~
+000/dvd_firmware/src/pages.c30-1-1control reaches end of non-void function [-Wreturn-type]1-../src/pages.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+000- }
+000- ^
+000-'Finished building: ../src/pages.c'
+000-' '
+000-'Building file: ../src/platform.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-'Finished building: ../src/platform.c'
+000-' '
+000-'Building file: ../src/scientific_plot.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/scientific_plot.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/scientific_plot.d" -MT"src/scientific_plot.o" -o "src/scientific_plot.o" "../src/scientific_plot.c"
+000-../src/scientific_plot.c: In function 'scplot_create':
+000/dvd_firmware/src/scientific_plot.c27-1-1implicit declaration of function 'add_data' [-Wimplicit-function-declaration]1-../src/scientific_plot.c:27:2: warning: implicit declaration of function 'add_data' [-Wimplicit-function-declaration]
+000-  add_data(scplot.chart_obj);
+000-  ^~~~~~~~
+000-../src/scientific_plot.c: In function 'scplot_draw_ticks':
+000/dvd_firmware/src/scientific_plot.c62-1-1unused variable 'ver_tick_number' [-Wunused-variable]1-../src/scientific_plot.c:62:6: warning: unused variable 'ver_tick_number' [-Wunused-variable]
+000-  int ver_tick_number = scplot.range.ver_upper - scplot.range.ver_lower;
+000-      ^~~~~~~~~~~~~~~
+000-../src/scientific_plot.c: In function 'scplot_create':
+000/dvd_firmware/src/scientific_plot.c25-1-1'scplot.height' is used uninitialized in this function [-Wuninitialized]1-../src/scientific_plot.c:25:48: warning: 'scplot.height' is used uninitialized in this function [-Wuninitialized]
+000-  lv_chart_set_range(scplot.chart_obj, 0, scplot.height);
+000-                                          ~~~~~~^~~~~~~
+000-'Finished building: ../src/scientific_plot.c'
+000-' '
+000-'Building file: ../src/video_demo.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/video_demo.d" -MT"src/video_demo.o" -o "src/video_demo.o" "../src/video_demo.c"
+000-'Finished building: ../src/video_demo.c'
+000-' '
+000-'Building target: dvd_firmware.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bsplib/lib -o "dvd_firmware.elf"  ./src/timer_ps/timer_ps.o  ./src/lvgl/lv_themes/lv_theme.o ./src/lvgl/lv_themes/lv_theme_alien.o ./src/lvgl/lv_themes/lv_theme_default.o ./src/lvgl/lv_themes/lv_theme_material.o ./src/lvgl/lv_themes/lv_theme_mono.o ./src/lvgl/lv_themes/lv_theme_nemo.o ./src/lvgl/lv_themes/lv_theme_night.o ./src/lvgl/lv_themes/lv_theme_templ.o ./src/lvgl/lv_themes/lv_theme_zen.o  ./src/lvgl/lv_objx/lv_arc.o ./src/lvgl/lv_objx/lv_bar.o ./src/lvgl/lv_objx/lv_btn.o ./src/lvgl/lv_objx/lv_btnm.o ./src/lvgl/lv_objx/lv_calendar.o ./src/lvgl/lv_objx/lv_cb.o ./src/lvgl/lv_objx/lv_chart.o ./src/lvgl/lv_objx/lv_cont.o ./src/lvgl/lv_objx/lv_ddlist.o ./src/lvgl/lv_objx/lv_gauge.o ./src/lvgl/lv_objx/lv_img.o ./src/lvgl/lv_objx/lv_imgbtn.o ./src/lvgl/lv_objx/lv_kb.o ./src/lvgl/lv_objx/lv_label.o ./src/lvgl/lv_objx/lv_led.o ./src/lvgl/lv_objx/lv_line.o ./src/lvgl/lv_objx/lv_list.o ./src/lvgl/lv_objx/lv_lmeter.o ./src/lvgl/lv_objx/lv_mbox.o ./src/lvgl/lv_objx/lv_objx_templ.o ./src/lvgl/lv_objx/lv_page.o ./src/lvgl/lv_objx/lv_preload.o ./src/lvgl/lv_objx/lv_roller.o ./src/lvgl/lv_objx/lv_slider.o ./src/lvgl/lv_objx/lv_sw.o ./src/lvgl/lv_objx/lv_ta.o ./src/lvgl/lv_objx/lv_tabview.o ./src/lvgl/lv_objx/lv_win.o  ./src/lvgl/lv_misc/lv_anim.o ./src/lvgl/lv_misc/lv_area.o ./src/lvgl/lv_misc/lv_circ.o ./src/lvgl/lv_misc/lv_color.o ./src/lvgl/lv_misc/lv_font.o ./src/lvgl/lv_misc/lv_fs.o ./src/lvgl/lv_misc/lv_ll.o ./src/lvgl/lv_misc/lv_log.o ./src/lvgl/lv_misc/lv_math.o ./src/lvgl/lv_misc/lv_mem.o ./src/lvgl/lv_misc/lv_task.o ./src/lvgl/lv_misc/lv_templ.o ./src/lvgl/lv_misc/lv_txt.o ./src/lvgl/lv_misc/lv_ufs.o  ./src/lvgl/lv_hal/lv_hal_disp.o ./src/lvgl/lv_hal/lv_hal_indev.o ./src/lvgl/lv_hal/lv_hal_tick.o  ./src/lvgl/lv_fonts/lv_font_builtin.o ./src/lvgl/lv_fonts/lv_font_dejavu_10.o ./src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.o ./src/lvgl/lv_fonts/lv_font_dejavu_20.o ./src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.o ./src/lvgl/lv_fonts/lv_font_dejavu_30.o ./src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.o ./src/lvgl/lv_fonts/lv_font_dejavu_40.o ./src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.o ./src/lvgl/lv_fonts/lv_font_monospace_8.o ./src/lvgl/lv_fonts/lv_font_symbol_10.o ./src/lvgl/lv_fonts/lv_font_symbol_20.o ./src/lvgl/lv_fonts/lv_font_symbol_30.o ./src/lvgl/lv_fonts/lv_font_symbol_40.o  ./src/lvgl/lv_draw/lv_draw.o ./src/lvgl/lv_draw/lv_draw_arc.o ./src/lvgl/lv_draw/lv_draw_img.o ./src/lvgl/lv_draw/lv_draw_label.o ./src/lvgl/lv_draw/lv_draw_line.o ./src/lvgl/lv_draw/lv_draw_rbasic.o ./src/lvgl/lv_draw/lv_draw_rect.o ./src/lvgl/lv_draw/lv_draw_triangle.o ./src/lvgl/lv_draw/lv_draw_vbasic.o  ./src/lvgl/lv_core/lv_group.o ./src/lvgl/lv_core/lv_indev.o ./src/lvgl/lv_core/lv_obj.o ./src/lvgl/lv_core/lv_refr.o ./src/lvgl/lv_core/lv_style.o ./src/lvgl/lv_core/lv_vdb.o  ./src/intc/intc.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/bloodtest_data.o ./src/dvd_firmware.o ./src/init.o ./src/oi_ui.o ./src/pages.o ./src/platform.o ./src/scientific_plot.o ./src/video_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: dvd_firmware.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size dvd_firmware.elf  |tee "dvd_firmware.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 402688	   4624	18790688	19198000	124f030	dvd_firmware.elf
+000-'Finished building: dvd_firmware.elf.size'
+000-' '
+00255-
+11:45:13 Build Finished (took 46s.809ms)
+
