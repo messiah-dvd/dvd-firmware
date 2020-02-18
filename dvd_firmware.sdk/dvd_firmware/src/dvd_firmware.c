@@ -8,7 +8,11 @@ int main() {
 	print("Hello World1\n\r");
 	init_screen();
 	print("Hello World\n\r");
-	home_page(lv_scr_act());
+	lv_obj_t * cont = lv_cont_create(lv_scr_act(), NULL);
+	lv_obj_align(cont, lv_scr_act(), LV_ALIGN_OUT_TOP_LEFT, 0, 0);
+	lv_obj_set_size(cont, LV_HOR_RES, LV_VER_RES - 75);
+	draw_buttons(lv_scr_act());
+	home_page(cont);
 
 //	draw_buttons(lv_scr_act());
 	unsigned int c = 0;

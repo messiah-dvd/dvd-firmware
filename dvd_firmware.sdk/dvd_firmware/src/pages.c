@@ -15,8 +15,8 @@ int home_page(lv_obj_t * parent){
 	style.body.shadow.color = LV_COLOR_GRAY;
 	style.line.color = LV_COLOR_GRAY;
 
-	chart = lv_chart_create(lv_scr_act(), NULL);
-	lv_obj_set_size(chart, 600, 480);
+	chart = lv_chart_create(parent, NULL);
+	lv_obj_set_size(chart, 600, lv_obj_get_height(parent));
 	lv_obj_set_style(chart, &style);
 	lv_obj_align(chart, NULL, LV_ALIGN_IN_TOP_LEFT, 0, 0);
 	lv_chart_set_type(chart, LV_CHART_TYPE_POINT | LV_CHART_TYPE_LINE);   /*Show lines and points too*/

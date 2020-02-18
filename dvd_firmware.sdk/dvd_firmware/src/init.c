@@ -64,7 +64,7 @@ void init_hardware(){
 	}
 
 	xil_printf("DisplayCtrl Init\n");
-	//init_btns();
+	init_btns();
 
 
 	init_acf_core();
@@ -84,7 +84,10 @@ int init_acf_core() {
 bool button_read(lv_indev_data_t*data){
     static uint32_t last_btn = 0;   /*Store the last pressed button*/
     int btn_pr = XGpio_DiscreteRead(&btn_input, 1);     /*Get the ID (0,1,2...) of the pressed button*/
+
+
     if(btn_pr == 0b0001) {
+    	xil_printf("Button 1 pressed\n");
 		last_btn = 1;
 	} else if(btn_pr == 0b0010) {
 		last_btn = 2;
@@ -113,11 +116,11 @@ void init_graphics(){
 	lv_disp_drv_register(&disp_drv);
 	xil_printf("Driver Init\n");
 
-	//lv_indev_drv_t indev_drv;
-	//lv_indev_drv_init(&indev_drv);  /*Basic initialization*/
-	//indev_drv.type = LV_INDEV_TYPE_BUTTON;
-	//indev_drv.read = button_read;
-	//lv_indev_set_button_points(lv_indev_drv_register(&indev_drv), points_array);
+	lv_indev_drv_t indev_drv;
+	lv_indev_drv_init(&indev_drv);  /*Basic initialization*/
+	indev_drv.type = LV_INDEV_TYPE_BUTTON;
+	indev_drv.read = button_read;
+	lv_indev_set_button_points(lv_indev_drv_register(&indev_drv), points_array);
 
 }
 
@@ -142,8 +145,8 @@ void disp_flush(int32_t x1, int32_t y1, int32_t x2, int32_t y2, const lv_color_t
 }
 
 void init_btns(){
-	//XGpio_Initialize(&btn_input, XPAR_AXI_GPIO_0_DEVICE_ID);
-	//XGpio_SetDataDirection(&btn_input, 1, 0xF);
+	XGpio_Initialize(&btn_input, XPAR_AXI_GPIO_0_DEVICE_ID);
+	XGpio_SetDataDirection(&btn_input, 1, 0xF);
 }
 
 
