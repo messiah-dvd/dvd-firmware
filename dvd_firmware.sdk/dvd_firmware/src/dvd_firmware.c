@@ -1,6 +1,7 @@
 #include "dvd_firmware.h"
 #include <stdio.h>
 #include "xil_printf.h"
+//#include <sys/sysinfo.h>
 
 int main() {
 //    init_platform();
@@ -22,6 +23,9 @@ int main() {
 		if (c % 5) {
 			lv_task_handler();
 		}
+		/*if (c % 5000){
+			sysinfo();
+		}*/
 		c++;
 	}
 	return 0;
