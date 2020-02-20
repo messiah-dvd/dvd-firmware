@@ -10516,3 +10516,637 @@ C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zyn
 
 TRACE::2020-02-18.11:57:44::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
 TRACE::2020-02-18.11:57:44::SCWMssOS::Removing the swdes entry for  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:38::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:38::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:38::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:42::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:42::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:42::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:42::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened new HwDB with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWReader::Active system found as  def
+TRACE::2020-02-20.11:45:47::SCWReader::Handling sysconfig def
+TRACE::2020-02-20.11:45:47::SCWDomain::checking for install qemu data   : 
+TRACE::2020-02-20.11:45:47::SCWDomain:: Using the QEMU Data from install at  : C:/Vitis/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-02-20.11:45:47::SCWDomain:: Using the QEMU args  from install at  : C:/Vitis/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:47::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:47::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-02-20.11:45:47::SCWMssOS::No sw design opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS::mss exists loading the mss file  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS::Opened the sw design from mss  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS::Adding the swdes entry C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-02-20.11:45:47::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-20.11:45:47::SCWMssOS::Opened the sw design.  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:47::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:45:47::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:47::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:45:47::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-02-20.11:45:47::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-02-20.11:45:47::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:47::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:45:47::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:47::SCWReader::No isolation master present  
+TRACE::2020-02-20.11:45:47::SCWDomain::checking for install qemu data   : 
+TRACE::2020-02-20.11:45:47::SCWDomain:: Using the QEMU Data from install at  : C:/Vitis/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-02-20.11:45:47::SCWDomain:: Using the QEMU args  from install at  : C:/Vitis/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:47::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:47::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:48::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:45:48::SCWMssOS::No sw design opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::mss exists loading the mss file  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::Opened the sw design from mss  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::Adding the swdes entry C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-02-20.11:45:48::SCWMssOS::updating the scw layer about changes
+TRACE::2020-02-20.11:45:48::SCWMssOS::Opened the sw design.  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-02-20.11:45:48::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-02-20.11:45:48::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:48::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:45:48::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWReader::No isolation master present  
+LOG::2020-02-20.11:45:48::SCWPlatform::Started generating the artifacts platform def
+TRACE::2020-02-20.11:45:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-02-20.11:45:48::SCWPlatform::Started generating the artifacts for system configuration def
+LOG::2020-02-20.11:45:48::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-02-20.11:45:48::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-02-20.11:45:48::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-02-20.11:45:48::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2020-02-20.11:45:48::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:48::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:45:48::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWBDomain::Completed writing the mss file at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-02-20.11:45:48::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-02-20.11:45:48::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-02-20.11:45:48::SCWBDomain::System Command Ran  C:&  cd  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl & make 
+TRACE::2020-02-20.11:45:48::SCWBDomain::make: Nothing to be done for 'all'.
+
+LOG::2020-02-20.11:45:48::SCWSystem::Checking the domain standalone_domain
+LOG::2020-02-20.11:45:48::SCWSystem::Not a boot domain 
+LOG::2020-02-20.11:45:48::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-02-20.11:45:48::SCWDomain::Generating domain artifcats
+TRACE::2020-02-20.11:45:48::SCWMssOS::Generating standalone artifcats
+TRACE::2020-02-20.11:45:48::SCWMssOS::Copying the qemu file from  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/resources/def/standalone_domain/qemu_args.txt To C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/qemu/
+TRACE::2020-02-20.11:45:48::SCWMssOS::Copying the qemu file from  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/resources/def/standalone_domain/qemu_args.txt To C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/qemu/
+TRACE::2020-02-20.11:45:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-02-20.11:45:48::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:45:48::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:45:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:45:48::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:45:48::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::Completed writing the mss file at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2020-02-20.11:45:48::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:45:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-02-20.11:45:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-02-20.11:45:48::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-02-20.11:45:48::SCWMssOS::doing bsp build ... 
+TRACE::2020-02-20.11:45:48::SCWMssOS::System Command Ran  C: & cd  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp & make 
+TRACE::2020-02-20.11:45:48::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+
+TRACE::2020-02-20.11:45:48::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-02-20.11:45:48::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-02-20.11:45:48::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-02-20.11:45:49::SCWMssOS::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-02-20.11:45:49::SCWMssOS::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-02-20.11:45:49::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-02-20.11:45:49::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-02-20.11:45:49::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-02-20.11:45:49::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:49::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:49::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-02-20.11:45:49::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-02-20.11:45:49::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-02-20.11:45:49::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-02-20.11:45:49::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:49::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:49::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-02-20.11:45:49::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-02-20.11:45:49::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-02-20.11:45:49::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_10/src"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:50::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:50::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:50::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:50::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:50::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:50::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-02-20.11:45:50::SCWMssOS::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-02-20.11:45:50::SCWMssOS::startfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:50::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:50::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-02-20.11:45:50::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-02-20.11:45:50::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-02-20.11:45:50::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-02-20.11:45:50::SCWMssOS::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-02-20.11:45:50::SCWMssOS::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_10/src"
+
+TRACE::2020-02-20.11:45:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:51::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:51::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-02-20.11:45:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:51::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:51::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:51::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-02-20.11:45:51::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-02-20.11:45:51::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-02-20.11:45:51::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+
+TRACE::2020-02-20.11:45:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:45:52::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:45:52::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:52::SCWMssOS::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-02-20.11:45:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-02-20.11:45:52::SCWMssOS:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-02-20.11:45:52::SCWMssOS::artfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:52::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v6_6/src"
+
+TRACE::2020-02-20.11:45:52::SCWMssOS::make -C ps7_cortexa9_0/libsrc/axivdma_v6_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-02-20.11:45:52::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-02-20.11:45:52::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:52::SCWMssOS::"Compiling axivdma"
+
+TRACE::2020-02-20.11:45:54::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-02-20.11:45:54::SCWMssOS::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-02-20.11:45:54::SCWMssOS::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-02-20.11:45:54::SCWMssOS:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:54::SCWMssOS::"Compiling coresightps_dcc"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-02-20.11:45:55::SCWMssOS::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-02-20.11:45:55::SCWMssOS::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::"Compiling cpu_cortexa9"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-02-20.11:45:55::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-02-20.11:45:55::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::"Compiling ddrps"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:45:55::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:45:55::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:55::SCWMssOS::"Compiling devcfg"
+
+TRACE::2020-02-20.11:45:57::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-02-20.11:45:57::SCWMssOS::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-02-20.11:45:57::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-02-20.11:45:57::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:57::SCWMssOS::"Compiling dmaps"
+
+TRACE::2020-02-20.11:45:59::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-02-20.11:45:59::SCWMssOS::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-02-20.11:45:59::SCWMssOS::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-02-20.11:45:59::SCWMssOS::tfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:45:59::SCWMssOS::"Compiling emacps"
+
+TRACE::2020-02-20.11:46:01::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-02-20.11:46:01::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:01::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:01::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:01::SCWMssOS::"Compiling gpiops"
+
+TRACE::2020-02-20.11:46:03::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-02-20.11:46:03::SCWMssOS::make -C ps7_cortexa9_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2020-02-20.11:46:03::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2020-02-20.11:46:03::SCWMssOS::les -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:03::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-02-20.11:46:05::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_10/src"
+
+TRACE::2020-02-20.11:46:05::SCWMssOS::make -C ps7_cortexa9_0/libsrc/iicps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:05::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:05::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:05::SCWMssOS::"Compiling iicps"
+
+TRACE::2020-02-20.11:46:09::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-02-20.11:46:09::SCWMssOS::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:09::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:09::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:09::SCWMssOS::"Compiling qspips"
+
+TRACE::2020-02-20.11:46:11::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-02-20.11:46:11::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:11::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:11::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:11::SCWMssOS::"Compiling scugic"
+
+TRACE::2020-02-20.11:46:14::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-02-20.11:46:14::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-02-20.11:46:14::SCWMssOS::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-02-20.11:46:14::SCWMssOS::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:14::SCWMssOS::"Compiling scutimer"
+
+TRACE::2020-02-20.11:46:15::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-02-20.11:46:15::SCWMssOS::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:15::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:15::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:15::SCWMssOS::"Compiling scuwdt"
+
+TRACE::2020-02-20.11:46:16::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-02-20.11:46:16::SCWMssOS::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2020-02-20.11:46:16::SCWMssOS::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2020-02-20.11:46:16::SCWMssOS::les -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:16::SCWMssOS::"Compiling sdps"
+
+TRACE::2020-02-20.11:46:18::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-02-20.11:46:18::SCWMssOS::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-02-20.11:46:18::SCWMssOS::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-02-20.11:46:18::SCWMssOS::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:18::SCWMssOS::"Compiling standalone"
+
+TRACE::2020-02-20.11:46:27::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_10/src"
+
+TRACE::2020-02-20.11:46:27::SCWMssOS::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:27::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:27::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:27::SCWMssOS::"Compiling ttcps"
+
+TRACE::2020-02-20.11:46:28::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-02-20.11:46:28::SCWMssOS::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:29::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:29::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:29::SCWMssOS::"Compiling uartps"
+
+TRACE::2020-02-20.11:46:31::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-02-20.11:46:31::SCWMssOS::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-02-20.11:46:31::SCWMssOS::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-02-20.11:46:31::SCWMssOS::iles -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:31::SCWMssOS::"Compiling usbps"
+
+TRACE::2020-02-20.11:46:33::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/vtc_v8_0/src"
+
+TRACE::2020-02-20.11:46:33::SCWMssOS::make -C ps7_cortexa9_0/libsrc/vtc_v8_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARCH
+TRACE::2020-02-20.11:46:33::SCWMssOS::IVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfil
+TRACE::2020-02-20.11:46:33::SCWMssOS::es -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:33::SCWMssOS::"Compiling video timing controller"
+
+TRACE::2020-02-20.11:46:35::SCWMssOS::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-02-20.11:46:35::SCWMssOS::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-02-20.11:46:35::SCWMssOS::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-02-20.11:46:35::SCWMssOS::files -g -Wall -Wextra"
+
+TRACE::2020-02-20.11:46:35::SCWMssOS::"Compiling xadcps"
+
+TRACE::2020-02-20.11:46:37::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-02-20.11:46:37::SCWMssOS::Copying to export directory.
+TRACE::2020-02-20.11:46:37::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-02-20.11:46:37::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-02-20.11:46:37::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-02-20.11:46:37::SCWSystem::Completed Processing the sysconfig def
+LOG::2020-02-20.11:46:37::SCWPlatform::Completed generating the artifacts for system configuration def
+TRACE::2020-02-20.11:46:37::SCWPlatform::Started preparing the platform 
+TRACE::2020-02-20.11:46:37::SCWSystem::Writing the bif file for system config def
+TRACE::2020-02-20.11:46:37::SCWSystem::dir created 
+TRACE::2020-02-20.11:46:37::SCWSystem::Writing the bif 
+TRACE::2020-02-20.11:46:37::SCWPlatform::Started writing the spfm file 
+TRACE::2020-02-20.11:46:37::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-02-20.11:46:37::SCWPlatform::Completed generating the platform
+TRACE::2020-02-20.11:46:37::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:46:37::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:46:37::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:46:37::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:46:37::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-02-20.11:46:37::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:46:37::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:46:37::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:46:37::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:46:37::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:46:37::SCWWriter::formatted JSON is {
+	"platformName":	"def",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"def",
+	"platHandOff":	"C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/system_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/system_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"def",
+	"systems":	[{
+			"systemName":	"def",
+			"systemDesc":	"def",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"def",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"6f32ef0203c6ce04e0cf6a11029f0811",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/def/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/def/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"55ef40c4fadc0479e5a0d348791e0f8d",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-02-20.11:46:37::SCWPlatform::updated the xpfm file.
+TRACE::2020-02-20.11:46:37::SCWPlatform::Trying to open the hw design at C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA given C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA absoulate path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform::DSA directory C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw
+TRACE::2020-02-20.11:46:37::SCWPlatform:: Platform Path C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/hw/system_wrapper.xsa
+TRACE::2020-02-20.11:46:37::SCWPlatform:: Unique name xilinx:zybo-z7-10::0.0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Trying to set the existing hwdb with name system_wrapper_0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Opened existing hwdb system_wrapper_0
+TRACE::2020-02-20.11:46:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-02-20.11:46:37::SCWMssOS::Checking the sw design at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2020-02-20.11:46:37::SCWMssOS::DEBUG:  swdes dump  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-02-20.11:46:37::SCWMssOS::Sw design exists and opened at  C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss

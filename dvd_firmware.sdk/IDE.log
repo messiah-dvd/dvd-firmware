@@ -978,3 +978,30 @@ con
 11:46:46 INFO  : Launch script is exported to file 'C:\Users\nc1220\xilinx_workspace\dvd_firmware\dvd_firmware.sdk\.sdk\launch_scripts\single_application_debug\systemdebugger_dvd_firmware_system_standalone.tcl'
 11:57:43 INFO  : Successfully done sdx_reload_mss "C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/zynq_fsbl/zynq_fsbl_bsp/system.mss"
 11:57:44 INFO  : Successfully done sdx_reload_mss "C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+22:50:52 WARN  : Unexpected exception occurred.
+java.io.IOException: Command [C 1692 xsdb eval "disconnect tcfchan#19"] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:840)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.base/java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.base/java.net.SocketOutputStream.write(Unknown Source)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.base/java.io.BufferedOutputStream.flush(Unknown Source)
+	at org.eclipse.tcf.core.ChannelTCP.flush(ChannelTCP.java:216)
+	at org.eclipse.tcf.core.AbstractChannel$2.run(AbstractChannel.java:523)
+11:29:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nc1220\xilinx_workspace\dvd_firmware\dvd_firmware.sdk\temp_xsdb_launch_script.tcl
+11:29:19 INFO  : XSCT server has started successfully.
+11:29:20 INFO  : Successfully done setting XSCT server connection channel  
+11:29:20 INFO  : plnx-install-location is set to ''
+11:29:20 INFO  : Successfully done setting workspace for the tool. 
+11:29:23 INFO  : Registering command handlers for Vitis TCF services
+11:29:24 INFO  : Successfully done query RDI_DATADIR 
+11:42:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\nc1220\xilinx_workspace\dvd_firmware\dvd_firmware.sdk\temp_xsdb_launch_script.tcl
+11:43:02 INFO  : XSCT server has started successfully.
+11:43:02 INFO  : plnx-install-location is set to ''
+11:43:02 INFO  : Successfully done setting XSCT server connection channel  
+11:43:02 INFO  : Successfully done setting workspace for the tool. 
+11:43:06 INFO  : Successfully done query RDI_DATADIR 
+11:43:06 INFO  : Registering command handlers for Vitis TCF services
