@@ -20,9 +20,9 @@ clients =
 	{ client_name = "vitis"; 
 		rules = (
 			{
-				context="vitis\\\\tool/1581665400846";
-				xml_map="vitis\\\\tool/1581665400846";
-				html_map="vitis\\\\tool/1581665400846";
+				context="vitis\\\\tool/1582170653066";
+				xml_map="vitis\\\\tool/1582170653066";
+				html_map="vitis\\\\tool/1582170653066";
 				html_format="UnisimStatsStyle";
 			}
 		);
