@@ -24,6 +24,9 @@ int main() {
 		if (c % 5) {
 			lv_task_handler();
 		}
+		/*if (c % 5000){
+			sysinfo();
+		}*/
 		c++;
 	}
 	return 0;

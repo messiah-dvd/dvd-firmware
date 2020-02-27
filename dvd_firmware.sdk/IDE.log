@@ -1271,3 +1271,53 @@ con
 11:28:58 INFO  : Checking for BSP changes to sync application flags for project 'dvd_firmware'...
 11:28:58 INFO  : Updating application flags with new BSP settings...
 11:28:59 INFO  : Successfully updated application flags for project dvd_firmware.
+11:33:16 INFO  : Checking for BSP changes to sync application flags for project 'dvd_firmware'...
+11:35:28 INFO  : Checking for BSP changes to sync application flags for project 'dvd_firmware'...
+11:38:37 INFO  : Checking for BSP changes to sync application flags for project 'dvd_firmware'...
+11:40:37 INFO  : Checking for BSP changes to sync application flags for project 'dvd_firmware'...
+11:40:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:40:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB7633A' is selected.
+11:40:51 INFO  : 'jtag frequency' command is executed.
+11:40:51 INFO  : Context for 'APU' is selected.
+11:40:52 INFO  : System reset is completed.
+11:40:55 INFO  : 'after 3000' command is executed.
+11:40:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7633A" && level==0} -index 1' command is executed.
+11:40:56 INFO  : FPGA configured successfully with bitstream "C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/dvd_firmware/_ide/bitstream/system_wrapper.bit"
+11:40:56 INFO  : Context for 'APU' is selected.
+11:40:56 INFO  : Hardware design information is loaded from 'C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/hw/system_wrapper.xsa'.
+11:40:56 INFO  : 'configparams force-mem-access 1' command is executed.
+11:40:56 INFO  : Context for 'APU' is selected.
+11:40:56 INFO  : Sourcing of 'C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/dvd_firmware/_ide/psinit/ps7_init.tcl' is done.
+11:40:57 INFO  : 'ps7_init' command is executed.
+11:40:57 INFO  : 'ps7_post_config' command is executed.
+11:40:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:40:58 INFO  : The application 'C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/dvd_firmware/Debug/dvd_firmware.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:40:58 INFO  : 'configparams force-mem-access 0' command is executed.
+11:40:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7633A" && level==0} -index 1
+fpga -file C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/dvd_firmware/_ide/bitstream/system_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/hw/system_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/dvd_firmware/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/dvd_firmware/Debug/dvd_firmware.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:40:58 INFO  : Memory regions updated for context APU
+11:40:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:40:58 INFO  : 'con' command is executed.
+11:40:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:40:58 INFO  : Launch script is exported to file 'C:\Users\nc1220\xilinx_workspace\dvd_firmware\dvd_firmware.sdk\.sdk\launch_scripts\single_application_debug\debugger_dvd_firmware-default.tcl'

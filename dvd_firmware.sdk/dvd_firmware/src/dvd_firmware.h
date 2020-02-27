@@ -1,3 +1,7 @@
+#ifndef SRC_DVD_FIRMWARE_H_
+#define SRC_DVD_FIRMWARE_H_
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "xil_types.h"
@@ -48,3 +52,6 @@ u8 *pFrames[DISPLAY_NUM_FRAMES]; //array of pointers to the frame buffers
 
 int main();
 static lv_res_t btn_click_action(lv_obj_t * btn);
+
+
+#endif /* SRC_DVD_FIRMWARE_H_ */

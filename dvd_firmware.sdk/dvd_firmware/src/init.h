@@ -1,3 +1,6 @@
+#ifndef SRC_INIT_H_
+#define SRC_INIT_H_
+
 #include <stdlib.h>
 
 #include "xscugic.h"
@@ -29,3 +32,5 @@ XGpio btn_input;
 
 
 int init_acf_core();
+
+#endif /* SRC_INIT_H_ */
