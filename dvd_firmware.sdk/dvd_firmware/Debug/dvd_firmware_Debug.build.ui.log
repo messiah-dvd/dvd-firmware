@@ -1,214 +1,10 @@
-2020-02-20T11:46:39.86489800255-11:46:39 **** Build of configuration Debug for project dvd_firmware ****
+2020-02-27T11:40:38.607510900255-11:40:38 **** Incremental Build of configuration Debug for project dvd_firmware ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
 000-' '
 000-make --no-print-directory main-build
-000-'Building file: ../src/timer_ps/timer_ps.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_ps/timer_ps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/timer_ps/timer_ps.d" -MT"src/timer_ps/timer_ps.o" -o "src/timer_ps/timer_ps.o" "../src/timer_ps/timer_ps.c"
-000-'Finished building: ../src/timer_ps/timer_ps.c'
-000-' '
-000-'Building file: ../src/intc/intc.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
-000-'Finished building: ../src/intc/intc.c'
-000-' '
-000-'Building file: ../src/dynclk/dynclk.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dynclk/dynclk.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/dynclk/dynclk.d" -MT"src/dynclk/dynclk.o" -o "src/dynclk/dynclk.o" "../src/dynclk/dynclk.c"
-000-'Finished building: ../src/dynclk/dynclk.c'
-000-' '
-000-'Building file: ../src/display_ctrl/display_ctrl.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display_ctrl/display_ctrl.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/display_ctrl/display_ctrl.d" -MT"src/display_ctrl/display_ctrl.o" -o "src/display_ctrl/display_ctrl.o" "../src/display_ctrl/display_ctrl.c"
-000-'Finished building: ../src/display_ctrl/display_ctrl.c'
-000-' '
-000-'Building file: ../src/bloodtest_data.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/bloodtest_data.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/bloodtest_data.d" -MT"src/bloodtest_data.o" -o "src/bloodtest_data.o" "../src/bloodtest_data.c"
-000-../src/bloodtest_data.c: In function 'add_data':
-000/dvd_firmware/src/bloodtest_data.c4-1-1implicit declaration of function 'printf' [-Wimplicit-function-declaration]1-../src/bloodtest_data.c:4:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-000-  printf("Done! \n");
-000-  ^~~~~~
-000/dvd_firmware/src/bloodtest_data.c4-1-1incompatible implicit declaration of built-in function 'printf'1-../src/bloodtest_data.c:4:2: warning: incompatible implicit declaration of built-in function 'printf'
-000/dvd_firmware/src/bloodtest_data.c4-1-1include '<stdio.h>' or provide a declaration of 'printf'0-../src/bloodtest_data.c:4:2: note: include '<stdio.h>' or provide a declaration of 'printf'
-000-../src/bloodtest_data.c:2:1:
-000-+#include <stdio.h>
-000- 
-000-../src/bloodtest_data.c:4:2:
-000-  printf("Done! \n");
-000-  ^~~~~~
-000/dvd_firmware/src/bloodtest_data.c10-1-1unused variable 'i' [-Wunused-variable]1-../src/bloodtest_data.c:10:6: warning: unused variable 'i' [-Wunused-variable]
-000-  int i;
-000-      ^
-000/dvd_firmware/src/bloodtest_data.c9-1-1unused variable 'points' [-Wunused-variable]1-../src/bloodtest_data.c:9:6: warning: unused variable 'points' [-Wunused-variable]
-000-  int points[64];
-000-      ^~~~~~
-000-'Finished building: ../src/bloodtest_data.c'
-000-' '
-000-'Building file: ../src/dvd_firmware.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dvd_firmware.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/dvd_firmware.d" -MT"src/dvd_firmware.o" -o "src/dvd_firmware.o" "../src/dvd_firmware.c"
-000-In file included from ../src/dvd_firmware.h:40,
-000-                 from ../src/dvd_firmware.c:1:
-000/dvd_firmware/src/init.h9-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/init.h:9: warning: "ACF_CORE_BASE_ADDR" redefined
-000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
-000- 
-000-In file included from ../src/dvd_firmware.c:1:
-000/dvd_firmware/src/dvd_firmware.h27-1-1this is the location of the previous definition0-../src/dvd_firmware.h:27: note: this is the location of the previous definition
-000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
-000- 
-000-In file included from ../src/pages.h:2,
-000-                 from ../src/dvd_firmware.h:43,
-000-                 from ../src/dvd_firmware.c:1:
-000/dvd_firmware/src/bloodtest_data.h17-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/bloodtest_data.h:17: warning: "ACF_CORE_BASE_ADDR" redefined
-000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
-000- 
-000-In file included from ../src/dvd_firmware.h:40,
-000-                 from ../src/dvd_firmware.c:1:
-000/dvd_firmware/src/init.h9-1-1this is the location of the previous definition0-../src/init.h:9: note: this is the location of the previous definition
-000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
-000- 
-000-../src/dvd_firmware.c: In function 'timer_h':
-000/dvd_firmware/src/dvd_firmware.c33-1-1parameter names (without types) in function declaration1-../src/dvd_firmware.c:33:2: warning: parameter names (without types) in function declaration
-000-  XScuTimer ClearInterruptStatus( TimerInstancePtr);
-000-  ^~~~~~~~~
-000/dvd_firmware/src/dvd_firmware.c32-1-1unused variable 'TimerInstancePtr' [-Wunused-variable]1-../src/dvd_firmware.c:32:13: warning: unused variable 'TimerInstancePtr' [-Wunused-variable]
-000-  XScuTimer *TimerInstancePtr = (XScuTimer *) CallBackRef;
-000-             ^~~~~~~~~~~~~~~~
-000-In file included from ../src/dvd_firmware.h:44,
-000-                 from ../src/dvd_firmware.c:1:
-000-../src/dvd_firmware.c: At top level:
-000/dvd_firmware/src/oi_ui.h4-1-1'on_btn_click' declared 'static' but never defined [-Wunused-function]1-../src/oi_ui.h:4:17: warning: 'on_btn_click' declared 'static' but never defined [-Wunused-function]
-000- static lv_res_t on_btn_click(lv_obj_t * btn);
-000-                 ^~~~~~~~~~~~
-000-In file included from ../src/dvd_firmware.c:1:
-000/dvd_firmware/src/dvd_firmware.h48-1-1'btn_click_action' declared 'static' but never defined [-Wunused-function]1-../src/dvd_firmware.h:48:17: warning: 'btn_click_action' declared 'static' but never defined [-Wunused-function]
-000- static lv_res_t btn_click_action(lv_obj_t * btn);
-000-                 ^~~~~~~~~~~~~~~~
-000-'Finished building: ../src/dvd_firmware.c'
-000-' '
-000-'Building file: ../src/init.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/init.d" -MT"src/init.o" -o "src/init.o" "../src/init.c"
-000-In file included from ../src/dvd_firmware.h:40,
-000-                 from ../src/init.c:2:
-000/dvd_firmware/src/init.h9-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/init.h:9: warning: "ACF_CORE_BASE_ADDR" redefined
-000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
-000- 
-000-In file included from ../src/init.c:2:
-000/dvd_firmware/src/dvd_firmware.h27-1-1this is the location of the previous definition0-../src/dvd_firmware.h:27: note: this is the location of the previous definition
-000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
-000- 
-000-In file included from ../src/pages.h:2,
-000-                 from ../src/dvd_firmware.h:43,
-000-                 from ../src/init.c:2:
-000/dvd_firmware/src/bloodtest_data.h17-1-1"ACF_CORE_BASE_ADDR" redefined1-../src/bloodtest_data.h:17: warning: "ACF_CORE_BASE_ADDR" redefined
-000- #define ACF_CORE_BASE_ADDR XPAR_ACF_AXI_MINI_0_BASEADDR
-000- 
-000-In file included from ../src/dvd_firmware.h:40,
-000-                 from ../src/init.c:2:
-000/dvd_firmware/src/init.h9-1-1this is the location of the previous definition0-../src/init.h:9: note: this is the location of the previous definition
-000- #define ACF_CORE_BASE_ADDR XPAR_AUTOCORRELATIONFUNCT_0_BASEADDR
-000- 
-000-../src/init.c: In function 'init_hardware':
-000/dvd_firmware/src/init.c67-1-1implicit declaration of function 'init_btns' [-Wimplicit-function-declaration]1-../src/init.c:67:2: warning: implicit declaration of function 'init_btns' [-Wimplicit-function-declaration]
-000-  init_btns();
-000-  ^~~~~~~~~
-000-../src/init.c: In function 'disp_flush':
-000/dvd_firmware/src/init.c143-1-1implicit declaration of function 'Xil_DCacheFlushRange' [-Wimplicit-function-declaration]1-../src/init.c:143:2: warning: implicit declaration of function 'Xil_DCacheFlushRange' [-Wimplicit-function-declaration]
-000-  Xil_DCacheFlushRange((unsigned int) pFrames[dispCtrl.curFrame], SCREEN_FRAME_SIZE);
-000-  ^~~~~~~~~~~~~~~~~~~~
-000-../src/init.c: At top level:
-000/dvd_firmware/src/init.c147-1-1conflicting types for 'init_btns'1init_btns../src/init.c:147:6: warning: conflicting types for 'init_btns'
-000- void init_btns(){
-000-      ^~~~~~~~~
-000/dvd_firmware/src/init.c67-1-1previous implicit declaration of 'init_btns' was here0-../src/init.c:67:2: note: previous implicit declaration of 'init_btns' was here
-000-  init_btns();
-000-  ^~~~~~~~~
-000-In file included from ../src/dvd_firmware.h:44,
-000-                 from ../src/init.c:2:
-000/dvd_firmware/src/oi_ui.h4-1-1'on_btn_click' declared 'static' but never defined [-Wunused-function]1-../src/oi_ui.h:4:17: warning: 'on_btn_click' declared 'static' but never defined [-Wunused-function]
-000- static lv_res_t on_btn_click(lv_obj_t * btn);
-000-                 ^~~~~~~~~~~~
-000-In file included from ../src/init.c:2:
-000/dvd_firmware/src/dvd_firmware.h48-1-1'btn_click_action' declared 'static' but never defined [-Wunused-function]1-../src/dvd_firmware.h:48:17: warning: 'btn_click_action' declared 'static' but never defined [-Wunused-function]
-000- static lv_res_t btn_click_action(lv_obj_t * btn);
-000-                 ^~~~~~~~~~~~~~~~
-000-../src/init.c: In function 'init_acf_core':
-000/dvd_firmware/src/init.c82-1-1control reaches end of non-void function [-Wreturn-type]1-../src/init.c:82:1: warning: control reaches end of non-void function [-Wreturn-type]
-000- }
-000- ^
-000-'Finished building: ../src/init.c'
-000-' '
-000-'Building file: ../src/oi_ui.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/oi_ui.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/oi_ui.d" -MT"src/oi_ui.o" -o "src/oi_ui.o" "../src/oi_ui.c"
-000-../src/oi_ui.c: In function 'on_btn_click':
-000/dvd_firmware/src/oi_ui.c46-1-1implicit declaration of function 'printf' [-Wimplicit-function-declaration]1-../src/oi_ui.c:46:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-000-     printf("Button %d pressed\n", id);
-000-     ^~~~~~
-000/dvd_firmware/src/oi_ui.c46-1-1incompatible implicit declaration of built-in function 'printf'1-../src/oi_ui.c:46:5: warning: incompatible implicit declaration of built-in function 'printf'
-000/dvd_firmware/src/oi_ui.c46-1-1include '<stdio.h>' or provide a declaration of 'printf'0-../src/oi_ui.c:46:5: note: include '<stdio.h>' or provide a declaration of 'printf'
-000-../src/oi_ui.c:2:1:
-000-+#include <stdio.h>
-000- 
-000-../src/oi_ui.c:46:5:
-000-     printf("Button %d pressed\n", id);
-000-     ^~~~~~
-000-'Finished building: ../src/oi_ui.c'
-000-' '
-000-'Building file: ../src/pages.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pages.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/pages.d" -MT"src/pages.o" -o "src/pages.o" "../src/pages.c"
-000-../src/pages.c: In function 'home_page':
-000/dvd_firmware/src/pages.c28-1-1implicit declaration of function 'add_data' [-Wimplicit-function-declaration]1-../src/pages.c:28:2: warning: implicit declaration of function 'add_data' [-Wimplicit-function-declaration]
-000-  add_data(chart, viral_load);
-000-  ^~~~~~~~
-000/dvd_firmware/src/pages.c30-1-1control reaches end of non-void function [-Wreturn-type]1-../src/pages.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
-000- }
-000- ^
-000-'Finished building: ../src/pages.c'
-000-' '
-000-'Building file: ../src/platform.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-000-'Finished building: ../src/platform.c'
-000-' '
-000-'Building file: ../src/scientific_plot.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/scientific_plot.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/scientific_plot.d" -MT"src/scientific_plot.o" -o "src/scientific_plot.o" "../src/scientific_plot.c"
-000-../src/scientific_plot.c: In function 'scplot_create':
-000/dvd_firmware/src/scientific_plot.c27-1-1implicit declaration of function 'add_data' [-Wimplicit-function-declaration]1-../src/scientific_plot.c:27:2: warning: implicit declaration of function 'add_data' [-Wimplicit-function-declaration]
-000-  add_data(scplot.chart_obj);
-000-  ^~~~~~~~
-000-../src/scientific_plot.c: In function 'scplot_draw_ticks':
-000/dvd_firmware/src/scientific_plot.c62-1-1unused variable 'ver_tick_number' [-Wunused-variable]1-../src/scientific_plot.c:62:6: warning: unused variable 'ver_tick_number' [-Wunused-variable]
-000-  int ver_tick_number = scplot.range.ver_upper - scplot.range.ver_lower;
-000-      ^~~~~~~~~~~~~~~
-000-../src/scientific_plot.c: In function 'scplot_create':
-000/dvd_firmware/src/scientific_plot.c25-1-1'scplot.height' is used uninitialized in this function [-Wuninitialized]1-../src/scientific_plot.c:25:48: warning: 'scplot.height' is used uninitialized in this function [-Wuninitialized]
-000-  lv_chart_set_range(scplot.chart_obj, 0, scplot.height);
-000-                                          ~~~~~~^~~~~~~
-000-'Finished building: ../src/scientific_plot.c'
-000-' '
-000-'Building file: ../src/video_demo.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bspinclude/include -MMD -MP -MF"src/video_demo.d" -MT"src/video_demo.o" -o "src/video_demo.o" "../src/video_demo.c"
-000-'Finished building: ../src/video_demo.c'
-000-' '
-000-'Building target: dvd_firmware.elf'
-000-'Invoking: ARM v7 gcc linker'
-000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/def/export/def/sw/def/standalone_domain/bsplib/lib -o "dvd_firmware.elf"  ./src/timer_ps/timer_ps.o  ./src/lvgl/lv_themes/lv_theme.o ./src/lvgl/lv_themes/lv_theme_alien.o ./src/lvgl/lv_themes/lv_theme_default.o ./src/lvgl/lv_themes/lv_theme_material.o ./src/lvgl/lv_themes/lv_theme_mono.o ./src/lvgl/lv_themes/lv_theme_nemo.o ./src/lvgl/lv_themes/lv_theme_night.o ./src/lvgl/lv_themes/lv_theme_templ.o ./src/lvgl/lv_themes/lv_theme_zen.o  ./src/lvgl/lv_objx/lv_arc.o ./src/lvgl/lv_objx/lv_bar.o ./src/lvgl/lv_objx/lv_btn.o ./src/lvgl/lv_objx/lv_btnm.o ./src/lvgl/lv_objx/lv_calendar.o ./src/lvgl/lv_objx/lv_cb.o ./src/lvgl/lv_objx/lv_chart.o ./src/lvgl/lv_objx/lv_cont.o ./src/lvgl/lv_objx/lv_ddlist.o ./src/lvgl/lv_objx/lv_gauge.o ./src/lvgl/lv_objx/lv_img.o ./src/lvgl/lv_objx/lv_imgbtn.o ./src/lvgl/lv_objx/lv_kb.o ./src/lvgl/lv_objx/lv_label.o ./src/lvgl/lv_objx/lv_led.o ./src/lvgl/lv_objx/lv_line.o ./src/lvgl/lv_objx/lv_list.o ./src/lvgl/lv_objx/lv_lmeter.o ./src/lvgl/lv_objx/lv_mbox.o ./src/lvgl/lv_objx/lv_objx_templ.o ./src/lvgl/lv_objx/lv_page.o ./src/lvgl/lv_objx/lv_preload.o ./src/lvgl/lv_objx/lv_roller.o ./src/lvgl/lv_objx/lv_slider.o ./src/lvgl/lv_objx/lv_sw.o ./src/lvgl/lv_objx/lv_ta.o ./src/lvgl/lv_objx/lv_tabview.o ./src/lvgl/lv_objx/lv_win.o  ./src/lvgl/lv_misc/lv_anim.o ./src/lvgl/lv_misc/lv_area.o ./src/lvgl/lv_misc/lv_circ.o ./src/lvgl/lv_misc/lv_color.o ./src/lvgl/lv_misc/lv_font.o ./src/lvgl/lv_misc/lv_fs.o ./src/lvgl/lv_misc/lv_ll.o ./src/lvgl/lv_misc/lv_log.o ./src/lvgl/lv_misc/lv_math.o ./src/lvgl/lv_misc/lv_mem.o ./src/lvgl/lv_misc/lv_task.o ./src/lvgl/lv_misc/lv_templ.o ./src/lvgl/lv_misc/lv_txt.o ./src/lvgl/lv_misc/lv_ufs.o  ./src/lvgl/lv_hal/lv_hal_disp.o ./src/lvgl/lv_hal/lv_hal_indev.o ./src/lvgl/lv_hal/lv_hal_tick.o  ./src/lvgl/lv_fonts/lv_font_builtin.o ./src/lvgl/lv_fonts/lv_font_dejavu_10.o ./src/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.o ./src/lvgl/lv_fonts/lv_font_dejavu_20.o ./src/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.o ./src/lvgl/lv_fonts/lv_font_dejavu_30.o ./src/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.o ./src/lvgl/lv_fonts/lv_font_dejavu_40.o ./src/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.o ./src/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.o ./src/lvgl/lv_fonts/lv_font_monospace_8.o ./src/lvgl/lv_fonts/lv_font_symbol_10.o ./src/lvgl/lv_fonts/lv_font_symbol_20.o ./src/lvgl/lv_fonts/lv_font_symbol_30.o ./src/lvgl/lv_fonts/lv_font_symbol_40.o  ./src/lvgl/lv_draw/lv_draw.o ./src/lvgl/lv_draw/lv_draw_arc.o ./src/lvgl/lv_draw/lv_draw_img.o ./src/lvgl/lv_draw/lv_draw_label.o ./src/lvgl/lv_draw/lv_draw_line.o ./src/lvgl/lv_draw/lv_draw_rbasic.o ./src/lvgl/lv_draw/lv_draw_rect.o ./src/lvgl/lv_draw/lv_draw_triangle.o ./src/lvgl/lv_draw/lv_draw_vbasic.o  ./src/lvgl/lv_core/lv_group.o ./src/lvgl/lv_core/lv_indev.o ./src/lvgl/lv_core/lv_obj.o ./src/lvgl/lv_core/lv_refr.o ./src/lvgl/lv_core/lv_style.o ./src/lvgl/lv_core/lv_vdb.o  ./src/intc/intc.o  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/bloodtest_data.o ./src/dvd_firmware.o ./src/init.o ./src/oi_ui.o ./src/pages.o ./src/platform.o ./src/scientific_plot.o ./src/video_demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000-'Finished building target: dvd_firmware.elf'
-000-' '
-000-'Invoking: ARM v7 Print Size'
-000-arm-none-eabi-size dvd_firmware.elf  |tee "dvd_firmware.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000- 402264	   4624	18790688	19197576	124ee88	dvd_firmware.elf
-000-'Finished building: dvd_firmware.elf.size'
-000-' '
+000-make[1]: Nothing to be done for 'main-build'.
 00255-
-11:46:48 Build Finished (took 8s.541ms)
+11:40:41 Build Finished (took 2s.967ms)
 

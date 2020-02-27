@@ -1,4 +1,5 @@
-
+#include <stdio.h>
+#include <stdlib.h>
 #include "xil_types.h"
 #include "xscutimer.h"
 #include "Xscugic.h"
@@ -42,6 +43,7 @@ u8 *pFrames[DISPLAY_NUM_FRAMES]; //array of pointers to the frame buffers
 #include "xparameters.h"
 #include "pages.h"
 #include "oi_ui.h"
+#include "sd_io.h"
 
 
 int main();

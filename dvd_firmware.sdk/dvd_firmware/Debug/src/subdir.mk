@@ -14,6 +14,7 @@ C_SRCS += \
 ../src/pages.c \
 ../src/platform.c \
 ../src/scientific_plot.c \
+../src/sd_io.c \
 ../src/video_demo.c 
 
 OBJS += \
@@ -24,6 +25,7 @@ OBJS += \
 ./src/pages.o \
 ./src/platform.o \
 ./src/scientific_plot.o \
+./src/sd_io.o \
 ./src/video_demo.o 
 
 C_DEPS += \
@@ -34,6 +36,7 @@ C_DEPS += \
 ./src/pages.d \
 ./src/platform.d \
 ./src/scientific_plot.d \
+./src/sd_io.d \
 ./src/video_demo.d 
 
 

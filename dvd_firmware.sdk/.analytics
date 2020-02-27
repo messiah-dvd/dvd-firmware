@@ -23,3 +23,8 @@ timestamp=[2020-02-20 11:29:22], mode=WORKBENCH_UI_INIT, duration=0:00:01.486, d
 timestamp=[2020-02-20 11:43:03], mode=WORKBENCH_START, duration=0:00:14.350, duration_ms=14350, data={}
 timestamp=[2020-02-20 11:43:05], mode=WORKBENCH_UI_INIT, duration=0:00:02.420, duration_ms=2420, data={editors_count=7, platform_editors_count=2, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,axi_test,axi_test2,axi_test2_system,axi_test_system,def,dvd_firmware,dvd_firmware_system}
 timestamp=[2020-02-20 11:46:38], mode=PLATFORM_GENERATION, duration=0:01:01.943, duration_ms=61943, data={name=def}
+timestamp=[2020-02-25 11:15:19], mode=PLATFORM_GENERATION, duration=0:00:04.383, duration_ms=4383, data={name=def}
+timestamp=[2020-02-25 11:16:47], mode=PLATFORM_GENERATION, duration=0:01:26.980, duration_ms=86980, data={name=def}
+timestamp=[2020-02-27 11:28:58], mode=PLATFORM_GENERATION, duration=0:00:50.368, duration_ms=50368, data={name=def}
+timestamp=[2020-02-27 11:33:49], mode=PLATFORM_GENERATION, duration=0:00:05.065, duration_ms=5065, data={name=def}
+timestamp=[2020-02-27 11:35:28], mode=PLATFORM_GENERATION, duration=0:01:37.771, duration_ms=97771, data={name=def}

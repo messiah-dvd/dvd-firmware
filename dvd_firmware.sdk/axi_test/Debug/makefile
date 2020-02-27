@@ -40,7 +40,7 @@ main-build: axi_test.elf secondary-outputs
 axi_test.elf: $(OBJS) ../src/lscript.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: ARM v7 gcc linker'
-	arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/nc1220/xilinx_workspace/dvd_firmware/default/export/default/sw/default/standalone_domain/bsplib/lib -o "axi_test.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/nc1220/xilinx_workspace/dvd_firmware/dvd_firmware.sdk/axi_test/Debug/_sdk/bsp/ps7_cortexa9_0/lib -o "axi_test.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

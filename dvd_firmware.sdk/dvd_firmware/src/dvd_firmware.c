@@ -1,10 +1,12 @@
 #include "dvd_firmware.h"
 #include <stdio.h>
 #include "xil_printf.h"
+#include <stdlib.h>
 
 int main() {
 //    init_platform();
 //    init_interrupts();
+	init_sdcard();
 	print("Hello World1\n\r");
 	init_screen();
 	print("Hello World\n\r");
@@ -25,6 +27,30 @@ int main() {
 		c++;
 	}
 	return 0;
+}
+
+#define MINREQ      0xFFF
+void test_mem(){
+    unsigned int required = (unsigned int)-1; // adapt to native uint
+    char *mem = NULL;
+    while (mem == NULL) {
+        printf ("Required %X\n", required);
+        mem = malloc (required);
+        if ((required >>= 1) < MINREQ) {
+            if (mem) free (mem);
+            printf ("Cannot allocate enough memory\n");
+            return (1);
+        }
+    }
+
+    free (mem);
+    mem = malloc (required);
+    if (mem == NULL) {
+        printf ("Cannot enough allocate memory\n");
+        return (1);
+    }
+    printf ("Memory size allocated = %X\n", required);
+    free (mem);
 }
 
 
