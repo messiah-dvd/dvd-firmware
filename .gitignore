@@ -1,6 +1,6 @@
 
 .analytics
-IDE.log
+dvd_firmware.sdk/IDE.log
 
 #########################################################################################################
 ##	This is an example .gitignore file for Vivado, please treat it as an example as 
