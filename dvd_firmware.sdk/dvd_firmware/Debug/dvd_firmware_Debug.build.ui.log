@@ -1,4 +1,4 @@
-2020-02-27T11:40:38.607510900255-11:40:38 **** Incremental Build of configuration Debug for project dvd_firmware ****
+2020-03-12T11:44:48.538030500255-11:44:48 **** Build of configuration Debug for project dvd_firmware ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
@@ -6,5 +6,5 @@
 000-make --no-print-directory main-build
 000-make[1]: Nothing to be done for 'main-build'.
 00255-
-11:40:41 Build Finished (took 2s.967ms)
+11:44:55 Build Finished (took 6s.788ms)
 

@@ -6,7 +6,8 @@ static FATFS fatfs;
  * To test logical drive 0, FileName should be "0:/<File name>" or
  * "<file_name>". For logical drive 1, FileName should be "1:/<file_name>"
  */
-static char FileName[32] = "Test.bin";
+
+const u32 param_file_size = (8*1024);
 static char *SD_File;
 
 #ifdef __ICCARM__
@@ -19,7 +20,7 @@ u8 DestinationAddress[10*1024] __attribute__ ((aligned(32)));
 u8 SourceAddress[10*1024] __attribute__ ((aligned(32)));
 #endif
 
-void init_sdcard () {
+int init_sdcard () {
 	FRESULT Res;
 	UINT NumBytesRead;
 	UINT NumBytesWritten;
@@ -55,69 +56,66 @@ void init_sdcard () {
 			return XST_FAILURE;
 		}
 
-		/*
-		 * Open file with required permissions.
-		 * Here - Creating new file with read/write permissions. .
-		 * To open file with write permissions, file system should not
-		 * be in Read Only mode.
-		 */
-		SD_File = (char *)FileName;
-
-		Res = f_open(&fil, SD_File, FA_CREATE_ALWAYS | FA_WRITE | FA_READ);
-		if (Res) {
-			return XST_FAILURE;
-		}
-
-		/*
-		 * Pointer to beginning of file .
-		 */
-		Res = f_lseek(&fil, 0);
-		if (Res) {
-			return XST_FAILURE;
-		}
-
-		/*
-		 * Write data to file.
-		 */
-		Res = f_write(&fil, (const void*)SourceAddress, FileSize,
-				&NumBytesWritten);
-		if (Res) {
-			return XST_FAILURE;
-		}
-
-		/*
-		 * Pointer to beginning of file .
-		 */
-		Res = f_lseek(&fil, 0);
-		if (Res) {
-			return XST_FAILURE;
-		}
-
-		/*
-		 * Read data from file.
-		 */
-		Res = f_read(&fil, (void*)DestinationAddress, FileSize,
-				&NumBytesRead);
-		if (Res) {
-			return XST_FAILURE;
-		}
-
-		/*
-		 * Data verification
-		 */
-		for(BuffCnt = 0; BuffCnt < FileSize; BuffCnt++){
-			if(SourceAddress[BuffCnt] != DestinationAddress[BuffCnt]){
-				return XST_FAILURE;
-			}
-		}
-
-		/*
-		 * Close file.
-		 */
-		Res = f_close(&fil);
-		if (Res) {
-			return XST_FAILURE;
-		}
-
 		return XST_SUCCESS;
+}
+
+
+
+char * get_param(char * param_name) {
+	FRESULT Res;
+	FIL file;
+	Res = f_open(&file, param_name, FA_CREATE_ALWAYS | FA_WRITE | FA_READ);
+	if (Res) {
+		return 1;
+	}
+	Res = f_lseek(&file, 0);
+	if (Res) {
+		return 2;
+	}
+
+	unsigned int NumBytesRead;
+	char * param = calloc(sizeof(char), 10*1024);
+	printf("Read Before (max %d bytes): %s\n", param_file_size, DestinationAddress);
+	Res = f_read(&file, (void*)DestinationAddress, param_file_size, &NumBytesRead);
+	if (Res) {
+		return "Error";
+	}
+	Res = f_close(&file);
+	if (Res) {
+		return 4;
+	}
+
+	printf("Read After (read %d bytes): %s\n", NumBytesRead, DestinationAddress);
+	return param;
+}
+
+int set_param(char * param_name, char * param_val) {
+	FRESULT Res;
+	FIL file;
+	Res = f_open(&file, param_name, FA_CREATE_ALWAYS | FA_WRITE | FA_READ);
+	if (Res) {
+		return 1;
+	}
+	Res = f_lseek(&file, 0);
+	if (Res) {
+		return 2;
+	}
+
+	/*
+	 * Write data to file.
+	 */
+
+	printf("Setting (before): %s\n", param_val);
+	u32 NumBytesWritten;
+	Res = f_write(&file, (const void*)SourceAddress, param_file_size,
+			&NumBytesWritten);
+	printf("Wrote (%d bytes, status %d): %s\n", NumBytesWritten, Res, param_val);
+	if (Res) {
+		return 3;
+	}
+	Res = f_close(&file);
+	if (Res) {
+		return Res;
+	}
+	return NumBytesWritten;
 }

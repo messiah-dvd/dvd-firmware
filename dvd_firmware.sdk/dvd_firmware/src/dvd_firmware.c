@@ -6,8 +6,15 @@
 int main() {
 //    init_platform();
 //    init_interrupts();
-	init_sdcard();
+	if ( init_sdcard() == XST_FAILURE) {
+		print("FAILED SD INIT\n");
+		exit(1);
+	}
+
+	set_param("Test", "123");
+	printf("Param: %s | %d\n", (get_param("Test")), (get_param("Test")));
 	print("Hello World1\n\r");
+	exit(1);
 	init_screen();
 	print("Hello World\n\r");
 	lv_obj_t * cont = lv_cont_create(lv_scr_act(), NULL);
